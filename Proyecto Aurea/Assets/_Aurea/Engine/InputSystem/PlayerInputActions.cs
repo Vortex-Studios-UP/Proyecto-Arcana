@@ -32,7 +32,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""type"": ""Value"",
                     ""id"": ""63753c8e-714d-49e8-840b-40d5c4bde3e6"",
                     ""expectedControlType"": ""Vector2"",
-                    ""processors"": ""StickDeadzone,NormalizeVector2"",
+                    ""processors"": ""NormalizeVector2,StickDeadzone"",
                     ""interactions"": """",
                     ""initialStateCheck"": true
                 },
@@ -46,7 +46,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Light Attack"",
+                    ""name"": ""Light"",
                     ""type"": ""Button"",
                     ""id"": ""d3dac6cf-5d0b-4e24-b5b5-6f21a797b3b3"",
                     ""expectedControlType"": ""Button"",
@@ -55,7 +55,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Heavy Attack"",
+                    ""name"": ""Heavy"",
                     ""type"": ""Button"",
                     ""id"": ""91e22ad4-ec01-4273-acef-f209e92448fc"",
                     ""expectedControlType"": ""Button"",
@@ -64,7 +64,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Spell"",
+                    ""name"": ""Magic"",
                     ""type"": ""Button"",
                     ""id"": ""07e8f12d-96e6-4a3f-b7ac-f794df1bdb19"",
                     ""expectedControlType"": ""Button"",
@@ -103,6 +103,15 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""name"": ""Map"",
                     ""type"": ""Button"",
                     ""id"": ""3ff9e65c-125a-4e0e-80a7-04065f40a802"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Special"",
+                    ""type"": ""Button"",
+                    ""id"": ""b22fa92d-3b5e-47b3-a9d0-c7e61d1f0bc1"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -150,7 +159,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
-                    ""action"": ""Light Attack"",
+                    ""action"": ""Light"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -161,7 +170,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard and Mouse"",
-                    ""action"": ""Light Attack"",
+                    ""action"": ""Light"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -172,7 +181,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard and Mouse"",
-                    ""action"": ""Light Attack"",
+                    ""action"": ""Light"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -183,7 +192,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
-                    ""action"": ""Spell"",
+                    ""action"": ""Magic"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -194,7 +203,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard and Mouse"",
-                    ""action"": ""Spell"",
+                    ""action"": ""Magic"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -205,7 +214,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard and Mouse"",
-                    ""action"": ""Spell"",
+                    ""action"": ""Magic"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -260,7 +269,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
-                    ""action"": ""Heavy Attack"",
+                    ""action"": ""Heavy"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -271,7 +280,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard and Mouse"",
-                    ""action"": ""Heavy Attack"",
+                    ""action"": ""Heavy"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -282,7 +291,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard and Mouse"",
-                    ""action"": ""Heavy Attack"",
+                    ""action"": ""Heavy"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -456,7 +465,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""id"": ""9f74d35d-df6f-4d4b-8819-2da48fe00d0e"",
                     ""path"": ""<Gamepad>/leftStick"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""NormalizeVector2"",
                     ""groups"": ""Gamepad"",
                     ""action"": ""Move"",
                     ""isComposite"": false,
@@ -470,6 +479,39 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
                     ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""51906c4b-cd37-4444-b495-4181a89ae9ed"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""Special"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""59830c4c-47b4-44d7-a760-b565fbbd74eb"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Special"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c384aa1e-8cee-42cf-880f-8cdd5fc07a6e"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Special"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1046,13 +1088,14 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
-        m_Player_LightAttack = m_Player.FindAction("Light Attack", throwIfNotFound: true);
-        m_Player_HeavyAttack = m_Player.FindAction("Heavy Attack", throwIfNotFound: true);
-        m_Player_Spell = m_Player.FindAction("Spell", throwIfNotFound: true);
+        m_Player_Light = m_Player.FindAction("Light", throwIfNotFound: true);
+        m_Player_Heavy = m_Player.FindAction("Heavy", throwIfNotFound: true);
+        m_Player_Magic = m_Player.FindAction("Magic", throwIfNotFound: true);
         m_Player_Dodge = m_Player.FindAction("Dodge", throwIfNotFound: true);
         m_Player_Grab = m_Player.FindAction("Grab", throwIfNotFound: true);
         m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
         m_Player_Map = m_Player.FindAction("Map", throwIfNotFound: true);
+        m_Player_Special = m_Player.FindAction("Special", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
@@ -1127,26 +1170,28 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
     private IPlayerActions m_PlayerActionsCallbackInterface;
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Jump;
-    private readonly InputAction m_Player_LightAttack;
-    private readonly InputAction m_Player_HeavyAttack;
-    private readonly InputAction m_Player_Spell;
+    private readonly InputAction m_Player_Light;
+    private readonly InputAction m_Player_Heavy;
+    private readonly InputAction m_Player_Magic;
     private readonly InputAction m_Player_Dodge;
     private readonly InputAction m_Player_Grab;
     private readonly InputAction m_Player_Pause;
     private readonly InputAction m_Player_Map;
+    private readonly InputAction m_Player_Special;
     public struct PlayerActions
     {
         private @PlayerInputActions m_Wrapper;
         public PlayerActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
-        public InputAction @LightAttack => m_Wrapper.m_Player_LightAttack;
-        public InputAction @HeavyAttack => m_Wrapper.m_Player_HeavyAttack;
-        public InputAction @Spell => m_Wrapper.m_Player_Spell;
+        public InputAction @Light => m_Wrapper.m_Player_Light;
+        public InputAction @Heavy => m_Wrapper.m_Player_Heavy;
+        public InputAction @Magic => m_Wrapper.m_Player_Magic;
         public InputAction @Dodge => m_Wrapper.m_Player_Dodge;
         public InputAction @Grab => m_Wrapper.m_Player_Grab;
         public InputAction @Pause => m_Wrapper.m_Player_Pause;
         public InputAction @Map => m_Wrapper.m_Player_Map;
+        public InputAction @Special => m_Wrapper.m_Player_Special;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1162,15 +1207,15 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @Jump.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
                 @Jump.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
                 @Jump.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
-                @LightAttack.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLightAttack;
-                @LightAttack.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLightAttack;
-                @LightAttack.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLightAttack;
-                @HeavyAttack.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnHeavyAttack;
-                @HeavyAttack.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnHeavyAttack;
-                @HeavyAttack.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnHeavyAttack;
-                @Spell.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSpell;
-                @Spell.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSpell;
-                @Spell.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSpell;
+                @Light.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLight;
+                @Light.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLight;
+                @Light.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLight;
+                @Heavy.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnHeavy;
+                @Heavy.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnHeavy;
+                @Heavy.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnHeavy;
+                @Magic.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMagic;
+                @Magic.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMagic;
+                @Magic.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMagic;
                 @Dodge.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodge;
                 @Dodge.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodge;
                 @Dodge.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDodge;
@@ -1183,6 +1228,9 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @Map.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMap;
                 @Map.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMap;
                 @Map.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMap;
+                @Special.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSpecial;
+                @Special.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSpecial;
+                @Special.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSpecial;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -1193,15 +1241,15 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
-                @LightAttack.started += instance.OnLightAttack;
-                @LightAttack.performed += instance.OnLightAttack;
-                @LightAttack.canceled += instance.OnLightAttack;
-                @HeavyAttack.started += instance.OnHeavyAttack;
-                @HeavyAttack.performed += instance.OnHeavyAttack;
-                @HeavyAttack.canceled += instance.OnHeavyAttack;
-                @Spell.started += instance.OnSpell;
-                @Spell.performed += instance.OnSpell;
-                @Spell.canceled += instance.OnSpell;
+                @Light.started += instance.OnLight;
+                @Light.performed += instance.OnLight;
+                @Light.canceled += instance.OnLight;
+                @Heavy.started += instance.OnHeavy;
+                @Heavy.performed += instance.OnHeavy;
+                @Heavy.canceled += instance.OnHeavy;
+                @Magic.started += instance.OnMagic;
+                @Magic.performed += instance.OnMagic;
+                @Magic.canceled += instance.OnMagic;
                 @Dodge.started += instance.OnDodge;
                 @Dodge.performed += instance.OnDodge;
                 @Dodge.canceled += instance.OnDodge;
@@ -1214,6 +1262,9 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @Map.started += instance.OnMap;
                 @Map.performed += instance.OnMap;
                 @Map.canceled += instance.OnMap;
+                @Special.started += instance.OnSpecial;
+                @Special.performed += instance.OnSpecial;
+                @Special.canceled += instance.OnSpecial;
             }
         }
     }
@@ -1353,13 +1404,14 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
     {
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
-        void OnLightAttack(InputAction.CallbackContext context);
-        void OnHeavyAttack(InputAction.CallbackContext context);
-        void OnSpell(InputAction.CallbackContext context);
+        void OnLight(InputAction.CallbackContext context);
+        void OnHeavy(InputAction.CallbackContext context);
+        void OnMagic(InputAction.CallbackContext context);
         void OnDodge(InputAction.CallbackContext context);
         void OnGrab(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
         void OnMap(InputAction.CallbackContext context);
+        void OnSpecial(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

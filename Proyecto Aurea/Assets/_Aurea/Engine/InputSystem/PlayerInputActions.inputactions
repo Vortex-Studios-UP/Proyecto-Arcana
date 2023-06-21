@@ -10,7 +10,7 @@
                     "type": "Value",
                     "id": "63753c8e-714d-49e8-840b-40d5c4bde3e6",
                     "expectedControlType": "Vector2",
-                    "processors": "StickDeadzone,NormalizeVector2",
+                    "processors": "NormalizeVector2,StickDeadzone",
                     "interactions": "",
                     "initialStateCheck": true
                 },
@@ -24,7 +24,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Light Attack",
+                    "name": "Light",
                     "type": "Button",
                     "id": "d3dac6cf-5d0b-4e24-b5b5-6f21a797b3b3",
                     "expectedControlType": "Button",
@@ -33,7 +33,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Heavy Attack",
+                    "name": "Heavy",
                     "type": "Button",
                     "id": "91e22ad4-ec01-4273-acef-f209e92448fc",
                     "expectedControlType": "Button",
@@ -42,7 +42,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Spell",
+                    "name": "Magic",
                     "type": "Button",
                     "id": "07e8f12d-96e6-4a3f-b7ac-f794df1bdb19",
                     "expectedControlType": "Button",
@@ -81,6 +81,15 @@
                     "name": "Map",
                     "type": "Button",
                     "id": "3ff9e65c-125a-4e0e-80a7-04065f40a802",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Special",
+                    "type": "Button",
+                    "id": "b22fa92d-3b5e-47b3-a9d0-c7e61d1f0bc1",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -128,7 +137,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Light Attack",
+                    "action": "Light",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -139,7 +148,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Light Attack",
+                    "action": "Light",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -150,7 +159,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Light Attack",
+                    "action": "Light",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -161,7 +170,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Spell",
+                    "action": "Magic",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -172,7 +181,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Spell",
+                    "action": "Magic",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -183,7 +192,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Spell",
+                    "action": "Magic",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -238,7 +247,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Heavy Attack",
+                    "action": "Heavy",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -249,7 +258,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Heavy Attack",
+                    "action": "Heavy",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -260,7 +269,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Heavy Attack",
+                    "action": "Heavy",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -434,7 +443,7 @@
                     "id": "9f74d35d-df6f-4d4b-8819-2da48fe00d0e",
                     "path": "<Gamepad>/leftStick",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "NormalizeVector2",
                     "groups": "Gamepad",
                     "action": "Move",
                     "isComposite": false,
@@ -448,6 +457,39 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "51906c4b-cd37-4444-b495-4181a89ae9ed",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "Special",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59830c4c-47b4-44d7-a760-b565fbbd74eb",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Special",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c384aa1e-8cee-42cf-880f-8cdd5fc07a6e",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Special",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
