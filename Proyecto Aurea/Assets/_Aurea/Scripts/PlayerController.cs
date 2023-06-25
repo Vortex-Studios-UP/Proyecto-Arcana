@@ -19,10 +19,163 @@ using DG.Tweening; // For ghost trail
 public class PlayerController : MonoBehaviour
 {
     [Header("Player Settings")]
-    [SerializeField] private float speed = 10f;
+    [SerializeField] private float speed = 10f; // Movement speed
     [SerializeField] private float jumpForce = 50f;
+
+    [Header("Player State")]
+    public bool grounded = true;
+    public bool canMove = false;
+    public bool stunned = false;
+
+    // Player Component
+    private Rigidbody2D _rigidbody2d;
+    private PlayerInput _playerInput;
+    private Animator _animator;
+    private BoxCollider2D _boxCollider2d;
+    private SpriteRenderer _spriteRenderer;
+    public PlayerInputActions playerInputActions;
+
+    private void Awake()
+    {
+        // Get components
+        _rigidbody2d = GetComponent<Rigidbody2D>();
+        _playerInput = GetComponent<PlayerInput>();
+        _animator = GetComponent<Animator>();
+        _boxCollider2d = GetComponent<BoxCollider2D>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+    
+        // Enable player input
+        playerInputActions = new PlayerInputActions();
+        playerInputActions.Player.Enable();
+
+        // Subscribe functions to input actions
+        playerInputActions.Player.Jump.performed += Jump;
+        playerInputActions.Player.Light.performed += LightAttack;
+        playerInputActions.Player.Heavy.performed += HeavyAttack;
+        playerInputActions.Player.Pause.performed += Pause;
+        playerInputActions.UI.Unpause.performed += Unpause;
+        playerInputActions.Player.Grab.performed += Grab;
+
+        playerInputActions.Player.Jump.canceled += Fall;
+        playerInputActions.Player.Grab.canceled += Release;
+
+        // Initialize variables
+        canMove = true;
+    }
+
+    // 
+    private void FixedUpdate()
+    {
+        // Functions that continually look for input
+        Move();
+
+
+
+
+
+        //CheckDirectionalInput();
+        //IsGroundedGizmo();
+        //AnimationUpdate();
+        //Crouch();
+    }
+
+    #region Public Functions
+
+    // Deactivates the player's ability to move for a set amount of time
+    public void Stun(float stunTime)
+    {
+        StartCoroutine(StunCoroutine(stunTime));
+
+        IEnumerator StunCoroutine(float stunTime)
+        {
+            canMove = false;
+            stunned = true;
+            yield return new WaitForSeconds(stunTime);
+            canMove = true;
+            stunned = false;
+        }
+    }
+    #endregion
+
+    // Check the player's state
+    private void UpdatePlayerState()
+    {
+        if (IsGrounded())
+        {
+            grounded = true;
+            _animator.SetBool("grounded", true);
+        }
+        else
+        {
+            grounded = false;
+            _animator.SetBool("grounded", false);
+        }
+    }
+
+    private bool IsGrounded()
+    {
+        RaycastHit2D raycastHit = Physics2D.BoxCast(_boxCollider2d.bounds.center, _boxCollider2d.bounds.size, 0f, Vector2.down, 0.1f, LayerMask.GetMask("Ground"));
+        return raycastHit.collider != null;
+    }
+
+    #region Private Functions (Movement)
+
+    // Checks for horizontal input, moves the player and flips the sprite
+    private void Move()
+    {
+        // Checks if the player can move
+        if (!canMove)
+            return;
+
+        // Flips the sprite renderer if the player is moving right
+        if (playerInputActions.Player.Move.ReadValue<Vector2>().x > 0)
+            transform.localScale = new Vector3(-1, 1, 1);
+        else if (playerInputActions.Player.Move.ReadValue<Vector2>().x < 0)
+            transform.localScale = new Vector3(1, 1, 1);
+        
+        // Assigns the horizontal input multiplied by the speed, but keeps the vertical velocity
+        _rigidbody2d.velocity = new Vector2(playerInputActions.Player.Move.ReadValue<Vector2>().x * speed, _rigidbody2d.velocity.y);
+        
+        // Sets the horizontal float in the animator to the absolute value of the horizontal input
+        _animator.SetFloat("horizontalSpeed", Mathf.Abs(_rigidbody2d.velocity.x));
+    }
+
+    private void Crouch()
+    {
+        // Checks if the player can move and is on the ground
+        if (!canMove) { return; }
+
+
+        if (playerInputActions.Player.Move.ReadValue<Vector2>().y < 0)
+            _animator.SetBool("isCrouching", true);
+        else
+            _animator.SetBool("isCrouching", false);
+    }
+
+
+
+
+    #endregion
+    //-------------------------------------------------------------------------------------------------------------------\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     [SerializeField] private float fallMultiplier = 5f;
-    [SerializeField] private float lowJumpMultiplier = 2f;
+    [SerializeField] private float lowJumpMultiplier = 2f; 
     [SerializeField] private float wallJumpLerp = 10f;
     [SerializeField] private float dashSpeed = 20f;
     [SerializeField] private float slideSpeed = 5f;
@@ -46,11 +199,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private ParticleSystem wallJumpParticle;
 
     // Public variables
-    [HideInInspector] bool onGround;
     [HideInInspector] public bool onWall;
     [HideInInspector] public bool onRightWall;
     [HideInInspector] public bool onLeftWall;
-    [HideInInspector] public bool canMove;
+
     [HideInInspector] public bool wallGrab;
     [HideInInspector] public bool wallJumped;
     [HideInInspector] public bool wallSlideBool;
@@ -74,44 +226,10 @@ public class PlayerController : MonoBehaviour
     float yRaw = 0;
     Vector2 direction = Vector2.zero;
 
-    // Player Components
-    private Rigidbody2D _rigidbody2d;
-    private PlayerInput _playerInput;
-    private Animator _animator;
-    private BoxCollider2D _boxCollider2d;
-    private SpriteRenderer _spriteRenderer;
-    private Transform _transform;
-
-
-    public PlayerInputActions playerInputActions;
 
 
 
 
-    private void Awake()
-    {
-        _rigidbody2d = GetComponent<Rigidbody2D>();
-        _playerInput = GetComponent<PlayerInput>();
-        _animator = GetComponent<Animator>();
-        _boxCollider2d = GetComponent<BoxCollider2D>();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-        _transform = GetComponent<Transform>();
-    
-        playerInputActions = new PlayerInputActions();
-        playerInputActions.Player.Enable();
-
-        playerInputActions.Player.Jump.performed += Jump;
-        playerInputActions.Player.Jump.canceled += Fall;
-        playerInputActions.Player.Light.performed += LightAttack;
-        playerInputActions.Player.Heavy.performed += HeavyAttack;
-        
-
-        playerInputActions.Player.Pause.performed += Pause;
-        playerInputActions.UI.Unpause.performed += Unpause;
-
-        playerInputActions.Player.Grab.performed += Grab;
-        playerInputActions.Player.Grab.canceled += Release;
-    }
 
     public PlayerState GetPlayerState()
     {
@@ -121,42 +239,33 @@ public class PlayerController : MonoBehaviour
             return PlayerState.Airborne;
     }
 
-    private void FixedUpdate()
-    {
-        CheckDirectionalInput();
-        IsGroundedGizmo();
 
-        AnimationUpdate();
-
-        Move();
-        Crouch();
-    }
 
     void Update()
     {
-        MovementUpdate();
-        CollisionVariableAssign();
+        //MovementUpdate();
+        //CollisionVariableAssign();
 
-        if (onGround && !isDashing)
-        {
-            wallJumped = false;
-            betterJumpingEnabled = true;
-        }
+        // if (grounded && !isDashing)
+        // {
+        //     wallJumped = false;
+        //     betterJumpingEnabled = true;
+        // }
 
-        if (wallGrab && !isDashing)
-            GrabWall(x, y);
-        else
-            _rigidbody2d.gravityScale = 3;
+        // if (wallGrab && !isDashing)
+        //     GrabWall(x, y);
+        // else
+        //     _rigidbody2d.gravityScale = 3;
 
-        BetterJumping();
-        CheckSlideWall();
-        CheckGroundTouch();
-        WallParticle(y);
+        // BetterJumping();
+        // CheckSlideWall();
+        // CheckGroundTouch();
+        // WallParticle(y);
 
-        if (wallGrab || wallSlideBool || !canMove)
-            return;
+        // if (wallGrab || wallSlideBool || !canMove)
+        //     return;
         
-        CheckSide();
+        // CheckSide();
     }
 
     private void CheckSide()
@@ -188,12 +297,12 @@ public class PlayerController : MonoBehaviour
 
     private void CheckGroundTouch()
     {
-        if (onGround && !groundTouch)
+        if (grounded && !groundTouch)
         {
             groundTouch = true;
             GroundTouch();
         }
-        if (!onGround && groundTouch)
+        if (!grounded && groundTouch)
         {
             groundTouch = false;
         }
@@ -211,7 +320,7 @@ public class PlayerController : MonoBehaviour
 
     private void CheckSlideWall()
     {
-        if (onWall && !onGround)
+        if (onWall && !grounded)
         {
             if (x != 0 && !wallGrab)
             {
@@ -219,7 +328,7 @@ public class PlayerController : MonoBehaviour
                 SlideWall();
             }
         }
-        if (!onWall || onGround)
+        if (!onWall || grounded)
             wallSlideBool = false;
     }
 
@@ -265,10 +374,10 @@ public class PlayerController : MonoBehaviour
     {
         Sequence s = DOTween.Sequence();
 
-        for (int i = 0; i < _transform.childCount; i++)
+        for (int i = 0; i < transform.childCount; i++)
         {
-            Transform currentGhost = _transform.GetChild(i);
-            s.AppendCallback(() => currentGhost.position = _transform.position); // move.transform.position
+            Transform currentGhost = transform.GetChild(i);
+            s.AppendCallback(() => currentGhost.position = transform.position); // move.transform.position
             s.AppendCallback(() => currentGhost.GetComponent<SpriteRenderer>().flipX = _spriteRenderer.flipX);
             s.AppendCallback(() => currentGhost.GetComponent<SpriteRenderer>().sprite = _spriteRenderer.sprite);
             s.Append(currentGhost.GetComponent<SpriteRenderer>().material.DOColor(trailColor, 0f));
@@ -285,7 +394,7 @@ public class PlayerController : MonoBehaviour
 
     private void CollisionVariableAssign()
     {
-        onGround = Physics2D.OverlapCircle((Vector2)transform.position + groundOffset, collisionRadius, groundLayerMask);
+        grounded = Physics2D.OverlapCircle((Vector2)transform.position + groundOffset, collisionRadius, groundLayerMask);
         onWall = Physics2D.OverlapCircle((Vector2)transform.position + wallRightOffset, collisionRadius, groundLayerMask) || Physics2D.OverlapCircle((Vector2)transform.position + wallRightOffset, collisionRadius, groundLayerMask);
 
         onRightWall = Physics2D.OverlapCircle((Vector2)transform.position + wallRightOffset, collisionRadius, groundLayerMask);
@@ -311,7 +420,7 @@ public class PlayerController : MonoBehaviour
 
     private void AnimationUpdate()
     {
-        _animator.SetBool("onGround", IsGrounded());
+        _animator.SetBool("grounded", IsGrounded());
         _animator.SetBool("onWall", onWall); 
         _animator.SetBool("onRightWall", onRightWall); 
         _animator.SetBool("wallGrab", false); // move.wallGrab
@@ -340,13 +449,6 @@ public class PlayerController : MonoBehaviour
 
         bool state = (side == 1) ? false : true;
         _spriteRenderer.flipX = state;
-    }
-
-    private bool IsGrounded()
-    {
-        RaycastHit2D raycastHit = Physics2D.BoxCast(_boxCollider2d.bounds.center, _boxCollider2d.bounds.size, 0f, Vector2.down, 0.1f, LayerMask.GetMask("Ground"));
-        //_animator.SetBool("isGrounded", raycastHit.collider != null);
-        return raycastHit.collider != null;
     }
 
     private void IsGroundedGizmo()
@@ -381,7 +483,7 @@ public class PlayerController : MonoBehaviour
         movementInput = playerInputActions.Player.Move.ReadValue<Vector2>();
     }
 
-    private void Move()
+    private void Move_()
     {
         if (!canMove)
             return;
@@ -403,27 +505,14 @@ public class PlayerController : MonoBehaviour
         // _rigidbody2d.AddForce(new Vector2(movementInput.x, 0.0f) * speed, ForceMode2D.Force);
     }
 
-    private void Crouch()
-    {
-        float verticalInput = playerInputActions.Player.Move.ReadValue<Vector2>().y;
-        if (verticalInput < 0)
-        {
-            //_animator.SetBool("isCrouching", true);
-        }
-        else
-        {
-            //_animator.SetBool("isCrouching", false);
-        }
-    }
-
     private void Jump(InputAction.CallbackContext context)
     {
         _animator.SetTrigger("jump");
 
-        if(onGround)
+        if(grounded)
             NormalJump(Vector2.up, false);
             return;
-        if(onWall && !onGround)
+        if(onWall && !grounded)
             WallJump();
             return;
         Debug.Log("Not grounded or on wall.");
@@ -536,7 +625,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator GroundDash()
     {
         yield return new WaitForSeconds(.15f);
-        if (onGround)
+        if (grounded)
             hasDashed = false;
     }
 

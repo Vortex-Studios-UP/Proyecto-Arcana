@@ -26,7 +26,7 @@ public enum InputButton
 
 public enum PlayerState
 {
-    Grounded, Airborne, Crouching, Dashing, Stunned
+    Grounded, Airborne, Attacking, Stunned, OnWall
 }
 
 public enum Stat
