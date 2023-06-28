@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23264f4feaa35534a890d5b6a8905d60, type: 3}
   m_Name: PlayerInputController
   m_EditorClassIdentifier: 
+  _inputActionAsset: {fileID: -944628639613478452, guid: f414b5e9d35e91249a471c18ede5262b, type: 3}

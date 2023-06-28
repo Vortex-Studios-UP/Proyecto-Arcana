@@ -172,7 +172,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 42592512}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: d98792233ddfd6e4db7b368e7b4f7483, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -386,8 +386,8 @@ GameObject:
   - component: {fileID: 1843140932}
   - component: {fileID: 1843140931}
   - component: {fileID: 1843140938}
-  - component: {fileID: 1843140939}
   - component: {fileID: 1843140940}
+  - component: {fileID: 1843140941}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _inputController: {fileID: 11400000, guid: d12709d2367cb0b4b8f1d506e9a57a9b, type: 2}
   maxSpeed: 4
-  maxAcceleration: 35
+  maxAcceleration: 60
   maxAirAcceleration: 20
 --- !u!114 &1843140932
 MonoBehaviour:
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: f414b5e9d35e91249a471c18ede5262b, type: 3}
-  m_NotificationBehavior: 0
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -634,24 +634,108 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 63753c8e-714d-49e8-840b-40d5c4bde3e6
+    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 5cfd7a92-26e0-41ea-83e9-41bd07a9a6bf
+    m_ActionName: Player/Jump[/Keyboard/space,/Keyboard/j]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d3dac6cf-5d0b-4e24-b5b5-6f21a797b3b3
+    m_ActionName: Player/Light[/Mouse/leftButton,/Keyboard/h]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 91e22ad4-ec01-4273-acef-f209e92448fc
+    m_ActionName: Player/Heavy[/Mouse/rightButton,/Keyboard/u]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 07e8f12d-96e6-4a3f-b7ac-f794df1bdb19
+    m_ActionName: Player/Magic[/Keyboard/e,/Keyboard/k]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 87ed82b0-9842-4417-beed-ff555534c7d5
+    m_ActionName: Player/Dodge[/Keyboard/leftShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 84bd5034-55b0-426a-bc99-d897179b08c8
+    m_ActionName: Player/Grab[/Keyboard/q,/Keyboard/i]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f47be835-6563-493e-a114-428b93f910fa
+    m_ActionName: Player/Pause[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3ff9e65c-125a-4e0e-80a7-04065f40a802
+    m_ActionName: Player/Map[/Keyboard/tab]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b22fa92d-3b5e-47b3-a9d0-c7e61d1f0bc1
+    m_ActionName: Player/Special[/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fe07eb64-374a-47e9-9466-d37b4766e7e8
+    m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2190becf-963b-46d9-980d-a059f0882a7d
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1ba0dffb-860e-4713-8cbb-d179a9b59b67
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f1f7fe0e-1df3-4516-8116-5b4cb881e250
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: aa7b00f6-cd01-4dfe-a8f5-7b9473e20f3b
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bef06e79-a9d7-4cae-b609-40d1063d63b4
+    m_ActionName: UI/Click[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5d6eea09-7b5b-4b21-aff4-23aa51593406
+    m_ActionName: UI/Point[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: cf2267af-8a75-4d0c-9dee-d31da4990a3a
+    m_ActionName: UI/Cancel[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d2d14ce6-851d-40be-8fb8-b35d16d84137
+    m_ActionName: UI/Submit[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7fd400a3-b9bc-432c-85de-60ba5c2d60be
+    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 44e7faef-7b8c-4895-96ee-9055fdb3f1dd
+    m_ActionName: UI/Unpause[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &1843140939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1843140930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9403b982329d03a41ad1fdd65d039d21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1843140940
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -668,6 +752,26 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &1843140941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843140930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6b7a843c9a2b64b88ad1ac375890d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inputController: {fileID: 11400000, guid: d12709d2367cb0b4b8f1d506e9a57a9b, type: 2}
+  jumpHeight: 3
+  maxAirJump: 0
+  fallMultiplier: 3
+  jumpMultiplier: 1.7
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &2101490964
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,7 +821,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2101490964}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a054dded6209fe4da4fc42ead8ff892, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0

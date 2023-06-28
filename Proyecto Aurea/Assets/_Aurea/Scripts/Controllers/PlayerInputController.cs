@@ -18,17 +18,17 @@ using UnityEngine.InputSystem;
 [CreateAssetMenu(fileName = "PlayerInputController", menuName = "Controllers/PlayerInputController")]
 public class PlayerInputController : InputController
 {
-    public PlayerInput playerInputStorage;
+    public InputActionAsset _inputActionAsset;
 
     public override bool RetrieveJumpInput()
     {
-        // return playerInputActions.Player.Jump.triggered;
-        return Input.GetKeyDown(KeyCode.Space);
+        // return Input.GetKeyDown(KeyCode.Space);
+        return _inputActionAsset.FindActionMap("Player").FindAction("Jump").triggered;
     }
 
     public override float RetrieveMoveInput()
     {
-        // return playerInputActions.Player.Move.ReadValue<float>();
-        return Input.GetAxisRaw("Horizontal");
+        // return Input.GetAxisRaw("Horizontal");
+        return _inputActionAsset.FindActionMap("Player").FindAction("Move").ReadValue<Vector2>().x;
     }
 }
