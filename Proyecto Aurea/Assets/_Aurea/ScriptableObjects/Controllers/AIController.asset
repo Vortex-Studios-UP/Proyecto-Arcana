@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   raycastBottomDistance: 1
   raycastTopDistance: 1
   raycastXOffset: 0.5

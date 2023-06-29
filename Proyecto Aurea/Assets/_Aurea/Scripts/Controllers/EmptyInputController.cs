@@ -2,7 +2,7 @@
 @Author: Christian Matos
 @Date: 2023-06-28 19:56:38
 @Last Modified by: Christian Matos
-@Last Modified Date: 2023-06-28 19:56:38
+@Last Modified Date: 2023-06-28 20:47
 
 * Functionality: Placeholder for empty input.
 * Approach: 
@@ -22,11 +22,6 @@ public class EmptyInputController : InputController
     }
 
     public override bool RetrieveJumpInput(GameObject gameObject)
-    {
-        return false;
-    }
-
-    public override bool RetrieveJumpHoldInput(GameObject gameObject)
     {
         return false;
     }

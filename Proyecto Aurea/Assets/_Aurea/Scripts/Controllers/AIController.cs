@@ -2,7 +2,7 @@
 @Author: Christian Matos
 @Date: 2023-06-27 15:12:32
 @Last Modified by: Christian Matos
-@Last Modified Date: 2023-06-27 15:12:32
+@Last Modified Date: 2023-06-28 20:47
 
 * Functionality: Handle NPC input.
 * Approach: Override InputController methods to retrieve input from code.
@@ -26,11 +26,6 @@ public class AIController : InputController
 
     private RaycastHit2D groundInfoTop;
     private RaycastHit2D groundInfoBottom;
-
-    public override bool RetrieveJumpHoldInput(GameObject gameObject)
-    {
-        return false;
-    }
 
     public override bool RetrieveJumpInput(GameObject gameObject)
     {

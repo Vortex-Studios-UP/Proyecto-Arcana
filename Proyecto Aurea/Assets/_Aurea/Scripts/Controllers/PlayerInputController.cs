@@ -2,7 +2,7 @@
 @Author: Christian Matos
 @Date: 2023-06-27 15:12:35
 @Last Modified by: Christian Matos
-@Last Modified Date: 2023-06-28 16:17:05
+@Last Modified Date: 2023-06-28 20:47
 
 * Functionality: Handle player input.
 * Approach: Override InputController methods to retrieve input from InputActions.
@@ -18,20 +18,42 @@ using UnityEngine.InputSystem;
 [CreateAssetMenu(fileName = "PlayerInputController", menuName = "Controllers/PlayerInputController")]
 public class PlayerInputController : InputController
 {
-    public InputActionAsset _inputActionAsset;
+    public PlayerInputActions _playerInputActions;
+    private bool isJumping;
+
+    private void OnEnable()
+    {
+        _playerInputActions = new PlayerInputActions();
+        _playerInputActions.Enable();
+        _playerInputActions.Player.Jump.started += JumpStarted;
+        _playerInputActions.Player.Jump.canceled += JumpCanceled;
+    }
+
+    private void OnDisable()
+    {
+        _playerInputActions.Disable();
+        _playerInputActions.Player.Jump.started -= JumpStarted;
+        _playerInputActions.Player.Jump.canceled -= JumpCanceled;
+        _playerInputActions = null;
+    }
 
     public override bool RetrieveJumpInput(GameObject gameObject)
     {
-        return _inputActionAsset.FindActionMap("Player").FindAction("Jump").triggered;
+        return isJumping;
     }
 
     public override float RetrieveMoveInput(GameObject gameObject)
     {
-        return _inputActionAsset.FindActionMap("Player").FindAction("Move").ReadValue<Vector2>().x;
+        return _playerInputActions.Player.Move.ReadValue<Vector2>().x;
     }
 
-    public override bool RetrieveJumpHoldInput(GameObject gameObject)
+    private void JumpStarted(InputAction.CallbackContext context)
     {
-        return Input.GetButton("Jump");
+        isJumping = true;
+    }
+
+    private void JumpCanceled(InputAction.CallbackContext context)
+    {
+        isJumping = false;
     }
 }

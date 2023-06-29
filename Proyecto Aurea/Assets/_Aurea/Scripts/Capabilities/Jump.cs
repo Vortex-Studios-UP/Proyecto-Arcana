@@ -2,7 +2,7 @@
 @Author: Christian Matos
 @Date: 2023-06-28 14:29:58
 @Last Modified by: Christian Matos
-@Last Modified Date: 2023-06-28 17:01:05
+@Last Modified Date: 2023-06-28 20:47
 
 * Functionality: Handle jumping behavior.
 * Approach: 
@@ -26,8 +26,8 @@ public class Jump : MonoBehaviour
     [SerializeField] private InputController _inputController;
     [SerializeField, Range(0f, 100f)] private float jumpHeight = 3f; // The force applied to the player when jumping
     [SerializeField, Range(0, 5)] private int maxAirJump = 0; // The maximum number of air jumps the player can perform
-    [SerializeField, Range(0f, 5f)] private float fallMultiplier = 3f; // The multiplier applied to the player's gravity when falling.
-    [SerializeField, Range(0f, 5f)] private float jumpMultiplier = 1.7f; // The multiplier applied to the player's gravity when jumping.
+    [SerializeField, Range(0f, 5f)] private float fallMultiplier = 5f; // The multiplier applied to the player's gravity when falling.
+    [SerializeField, Range(0f, 5f)] private float jumpMultiplier = 2f; // The multiplier applied to the player's gravity when jumping.
     [SerializeField, Range(0f, 0.3f)] private float coyoteTime = 0.2f; // The time window in which the player can jump after leaving the ground.
     [SerializeField, Range(0f, 0.3f)] private float jumpBufferTime = 0.1f; // The time window in which the player can ask to jump before landing.
 
@@ -47,19 +47,21 @@ public class Jump : MonoBehaviour
     private bool desiredJump;
     private bool onGround;
     private bool isJumping;
+    private bool isJumpReset;
 
     void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _groundCheck = GetComponent<CollisionCheck>();
 
+        isJumpReset = true;
         defaultGravityScale = 1f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        desiredJump |= _inputController.RetrieveJumpInput(this.gameObject);
+        desiredJump = _inputController.RetrieveJumpInput(this.gameObject);
     }
 
     void FixedUpdate() 
@@ -79,22 +81,27 @@ public class Jump : MonoBehaviour
         }
             
         
-        if (desiredJump)
+        if (desiredJump && isJumpReset)
         {
+            isJumpReset = false;
             desiredJump = false;
             jumpBufferCounter = jumpBufferTime;
         }
-        else if (!desiredJump && jumpBufferCounter > 0f)
+        else if (jumpBufferCounter > 0f)
         {
             jumpBufferCounter -= Time.deltaTime;
+        }
+        else if (!desiredJump)
+        {
+            isJumpReset = true;
         }
 
         if (jumpBufferCounter > 0f)
             JumpAction();
 
-        if (_inputController.RetrieveJumpHoldInput(this.gameObject) && _rigidbody2D.velocity.y > 0f)
+        if (_inputController.RetrieveJumpInput(this.gameObject) && _rigidbody2D.velocity.y > 0f)
             _rigidbody2D.gravityScale = defaultGravityScale * jumpMultiplier;
-        else if (!_inputController.RetrieveJumpHoldInput(this.gameObject) || _rigidbody2D.velocity.y < 0f)
+        else if (!_inputController.RetrieveJumpInput(this.gameObject) || _rigidbody2D.velocity.y < 0f)
             _rigidbody2D.gravityScale = defaultGravityScale * fallMultiplier;
         else
             _rigidbody2D.gravityScale = defaultGravityScale;

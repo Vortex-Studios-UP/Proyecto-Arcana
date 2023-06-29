@@ -2,7 +2,7 @@
 @Author: Christian Matos
 @Date: 2023-06-27 15:39:17
 @Last Modified by: Christian Matos
-@Last Modified Date: 2023-06-28 16:17:05
+@Last Modified Date: 2023-06-28 20:47
 
 * Functionality: Move a character.
 * Approach: Use a Rigidbody2D to move the character with specific acceleration and speed.

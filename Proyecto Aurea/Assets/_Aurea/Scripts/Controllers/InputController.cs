@@ -2,7 +2,7 @@
 @Author: Christian Matos
 @Date: 2023-06-27 15:01:37
 @Last Modified by: Christian Matos
-@Last Modified Date: 2023-06-27 15:01:37
+@Last Modified Date: 2023-06-28 20:47
 
 * Functionality: Template to create objects that retrieve input from a source.
 * Approach: Derive player and enemy input from a common base class.
@@ -18,5 +18,4 @@ public abstract class InputController : ScriptableObject
 {
     public abstract float RetrieveMoveInput(GameObject gameObject);
     public abstract bool RetrieveJumpInput(GameObject gameObject);
-    public abstract bool RetrieveJumpHoldInput(GameObject gameObject);
 }
