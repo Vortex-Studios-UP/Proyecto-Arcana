@@ -2,7 +2,7 @@
 @Author: Christian Matos
 @Date: 2023-06-27 15:22:55
 @Last Modified by: Christian Matos
-@Last Modified Date: 2023-06-27 15:22:55
+@Last Modified Date: 2023-06-28 19:56:05
 
 * Functionality: Check if the object is grounded and retrieve the friction of the ground.
 * Approach: 
@@ -18,13 +18,23 @@ using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
 
-public class GroundCheck : MonoBehaviour
+public class CollisionCheck : MonoBehaviour
 {
-    private bool onGround;
-    private float friction;
+    public bool onGround { get; private set; }
+    public bool onWall { get; private set; }
+    public float friction { get; private set; }
+    public Vector2 contactNormal { get; private set; }
+    private PhysicsMaterial2D material { get; set; }
 
-    public bool GetGrounded { get => onGround; }
-    public float GetFriction { get => friction; }
+    public void EvaluateCollision(Collision2D collision)
+    {
+        for (int i = 0; i < collision.contactCount; i++)
+        {
+            contactNormal = collision.GetContact(i).normal;
+            onGround |= contactNormal.y > 0.5f;
+            onWall = Mathf.Abs(contactNormal.x) >= 0.9f;
+        }
+    }
 
     // Check grounded and friction on collision.
     private void OnCollisionEnter2D(Collision2D other) 
@@ -43,16 +53,8 @@ public class GroundCheck : MonoBehaviour
     private void OnCollisionExit2D(Collision2D other) 
     {
         onGround = false;
+        onWall = false;
         friction = 0;
-    }
-
-    private void EvaluateCollision(Collision2D collision)
-    {
-        for (int i = 0; i < collision.contactCount; i++)
-        {
-            Vector2 normal = collision.GetContact(i).normal;
-            onGround |= normal.y > 0.5f;
-        }
     }
 
     private void RetrieveFriction(Collision2D collision)

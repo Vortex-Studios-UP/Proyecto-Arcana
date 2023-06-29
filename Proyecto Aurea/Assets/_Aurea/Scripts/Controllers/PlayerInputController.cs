@@ -2,7 +2,7 @@
 @Author: Christian Matos
 @Date: 2023-06-27 15:12:35
 @Last Modified by: Christian Matos
-@Last Modified Date: 2023-06-27 15:12:35
+@Last Modified Date: 2023-06-28 16:17:05
 
 * Functionality: Handle player input.
 * Approach: Override InputController methods to retrieve input from InputActions.
@@ -20,15 +20,18 @@ public class PlayerInputController : InputController
 {
     public InputActionAsset _inputActionAsset;
 
-    public override bool RetrieveJumpInput()
+    public override bool RetrieveJumpInput(GameObject gameObject)
     {
-        // return Input.GetKeyDown(KeyCode.Space);
         return _inputActionAsset.FindActionMap("Player").FindAction("Jump").triggered;
     }
 
-    public override float RetrieveMoveInput()
+    public override float RetrieveMoveInput(GameObject gameObject)
     {
-        // return Input.GetAxisRaw("Horizontal");
         return _inputActionAsset.FindActionMap("Player").FindAction("Move").ReadValue<Vector2>().x;
+    }
+
+    public override bool RetrieveJumpHoldInput(GameObject gameObject)
+    {
+        return Input.GetButton("Jump");
     }
 }

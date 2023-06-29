@@ -17,13 +17,39 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "AIController", menuName = "Controllers/AIController")]
 public class AIController : InputController
 {
-    public override bool RetrieveJumpInput()
+    [SerializeField] private LayerMask layerMask = 0;
+    [SerializeField] private float raycastBottomDistance = 1f;
+    [SerializeField] private float raycastTopDistance = 1f;
+
+    [SerializeField] private float raycastXOffset = 0.5f;
+
+
+    private RaycastHit2D groundInfoTop;
+    private RaycastHit2D groundInfoBottom;
+
+    public override bool RetrieveJumpHoldInput(GameObject gameObject)
     {
-        return true;
+        return false;
     }
 
-    public override float RetrieveMoveInput()
+    public override bool RetrieveJumpInput(GameObject gameObject)
     {
-        return 2f;
+        return false;
+    }
+
+    public override float RetrieveMoveInput(GameObject gameObject)
+    {
+        groundInfoBottom = Physics2D.Raycast(new Vector2(gameObject.transform.position.x + (raycastXOffset * gameObject.transform.localScale.x), gameObject.transform.position.y - raycastBottomDistance), Vector2.down, raycastBottomDistance, layerMask);
+        Debug.DrawRay(new Vector2(gameObject.transform.position.x + (raycastXOffset * gameObject.transform.localScale.x), gameObject.transform.position.y), Vector2.down * raycastBottomDistance, Color.green);
+
+        groundInfoTop = Physics2D.Raycast(new Vector2(gameObject.transform.position.x + (raycastXOffset * gameObject.transform.localScale.x), gameObject.transform.position.y - raycastBottomDistance), Vector2.right * gameObject.transform.localScale.x, raycastTopDistance, layerMask);
+        Debug.DrawRay(new Vector2(gameObject.transform.position.x + (raycastXOffset * gameObject.transform.localScale.x), gameObject.transform.position.y), Vector2.right * raycastTopDistance * gameObject.transform.localScale.x, Color.green);
+
+        if(groundInfoTop.collider == true || groundInfoBottom.collider == false)
+        {
+            gameObject.transform.localScale = new Vector2(gameObject.transform.localScale.x * -1, gameObject.transform.localScale.y);
+        }
+
+        return gameObject.transform.localScale.x;
     }
 }

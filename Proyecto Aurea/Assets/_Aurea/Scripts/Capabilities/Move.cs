@@ -2,7 +2,7 @@
 @Author: Christian Matos
 @Date: 2023-06-27 15:39:17
 @Last Modified by: Christian Matos
-@Last Modified Date: 2023-06-27 15:39:17
+@Last Modified Date: 2023-06-28 16:17:05
 
 * Functionality: Move a character.
 * Approach: Use a Rigidbody2D to move the character with specific acceleration and speed.
@@ -13,9 +13,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(GroundCheck))]
 
 public class Move : MonoBehaviour
 {
@@ -35,26 +32,28 @@ public class Move : MonoBehaviour
 
     // Onject components
     private Rigidbody2D _rigidbody2D;
-    private GroundCheck _groundCheck;
+    private CollisionCheck _collisionCheck;
+    private WallClimb _wallClimb;
 
     void Awake()
     {
         // Get components
         _rigidbody2D = GetComponent<Rigidbody2D>();
-        _groundCheck = GetComponent<GroundCheck>();
+        _collisionCheck = GetComponent<CollisionCheck>();
+        _wallClimb = GetComponent<WallClimb>();
     }
 
     private void Update()
     {
         // Get input every frame
-        direction.x = _inputController.RetrieveMoveInput();
-        desiredVelocity = new Vector2(direction.x, 0f) * Mathf.Max(maxSpeed - _groundCheck.GetFriction, 0f);
+        direction.x = _inputController.RetrieveMoveInput(this.gameObject);
+        desiredVelocity = new Vector2(direction.x, 0f) * Mathf.Max(maxSpeed - _collisionCheck.friction, 0f);
     }
 
     private void FixedUpdate() 
     {
         // Perform physics calculations every fixed frame
-        onGround = _groundCheck.GetGrounded;
+        onGround = _collisionCheck.onGround;
         velocity = _rigidbody2D.velocity;
 
         // Set acceleration and speed according to grounded state

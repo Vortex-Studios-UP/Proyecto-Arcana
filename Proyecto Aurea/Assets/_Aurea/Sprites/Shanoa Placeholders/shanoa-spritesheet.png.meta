@@ -1,0 +1,7163 @@
+fileFormatVersion: 2
+guid: 16ddff43203c77743bbb9349dfad1669
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shanoa-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 5616
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3f22f4015b16a48bf2575464e76f57
+      internalID: -1021961226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 5600
+        width: 256
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344ea8b935179f7419d578a94a0c5776
+      internalID: -491434987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 5616
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3334db06904f9143993e1cbbb444fb8
+      internalID: -33087520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 5616
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9907905f32f6734687bf4e251025b15
+      internalID: -244428313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 5616
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11f3adf09e5d5c4eac1a5b9f25af575
+      internalID: -1733940523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 5520
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96563ce9d7be1444e8908b56f295fa1e
+      internalID: 1658524513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 5520
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8031a4cbceba674b830d5b735de2b58
+      internalID: -2067246731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 5520
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f76d79e8b66b94bbd0c364cc370a4a
+      internalID: 1155352218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 5520
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bd03a2c6884a04886bc2562356eb86
+      internalID: 1004937912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 5520
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3434ac211fc64e48b441e1920b8d586
+      internalID: -1459563563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 5520
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4d1bc8047313f4c8b1e063bb0da145
+      internalID: -20936353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 5424
+        width: 19
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f2cb344eb1b944d8c9999aa0835585
+      internalID: -683149322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 5424
+        width: 19
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740baed5f9865f9498c08a01c5bdd1a7
+      internalID: -800065595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 5424
+        width: 19
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c61f3e1c231f44da20d890f998cc60
+      internalID: -1102583760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 5424
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1248585be8fb8ee4ab21b23753118849
+      internalID: -31195412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 5424
+        width: 28
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d18f7e6c00a88e4f8cfbc8fb7e8b6f3
+      internalID: 53666580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 5424
+        width: 28
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b2246618ed76c408961715c742042a
+      internalID: 13181921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 5328
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ac1bcd7da29ba4da4aba3d6be17318
+      internalID: 1375067071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 5328
+        width: 29
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b9a45d6ff3b4f498bc0c15216639c0
+      internalID: -746252596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 5328
+        width: 29
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb56cd3852c8924498ae775f0bc45db
+      internalID: -1224633484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 5328
+        width: 28
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22d2f2fea9719841ad7e19923bfcbea
+      internalID: 1596461655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 5328
+        width: 27
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc2161e5ea614b44a3c0945de6158f2
+      internalID: 2014407655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 5328
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302fc6a03f60fef4a90573522cd722c0
+      internalID: -837814396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 5232
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6509db2dccf180640bc9f645adaa6b41
+      internalID: -1167523640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 5232
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89915efbf2347a449b01b48129ca4225
+      internalID: -2079632392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 5232
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e017d606fa6526845994dd59b9187b6d
+      internalID: 1697215115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 5232
+        width: 25
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2730596101d6674382bf82da6e222b8
+      internalID: 1392830520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 5232
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfb761a7dd9cf640bc7da91da66be20
+      internalID: 1245586852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 5232
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15de6fd9a090a22419b941c893222624
+      internalID: 1831959627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 5134
+        width: 29
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce71bbb7c60a1ce4da8edb74e1aa4c24
+      internalID: 137490759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 5133
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0bfc1fa649d1040be8b46b17825440
+      internalID: -1407417170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 5134
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7149e71e432729e44a2d380057fc1064
+      internalID: 866101566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 5134
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8811fd46e4b34e149b5a2a86b398d159
+      internalID: -756751280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 5134
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d7b6899b637284882b0b203a649a66
+      internalID: 288512943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 5134
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f2dcf2a4723c044b06e89ec3e18953
+      internalID: -111422007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 5038
+        width: 27
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca32ea13a55e4b4ca5ad809a4388ac2
+      internalID: 108282893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 5038
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c244b712743f43a4e8d048ccdfde8eae
+      internalID: -2025216512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 5038
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a84bcabd3812b8438269d49f5139f4a
+      internalID: 1141494523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 5038
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9ab1574e10cf549a5d5ed954a378f7
+      internalID: 864630011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 5038
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004066819a86e8549932eb95c7202900
+      internalID: -158944160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 5043
+        width: 27
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e6828949425994380d849c2a73c163
+      internalID: -102812499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4956
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5144624c376abaa4fb67ad6981b1ca81
+      internalID: -937808743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 4957
+        width: 41
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949cb4657319f9d4186fa087acc240ad
+      internalID: 341370005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 4950
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a25672a4910c504aa2b08fc2c49945f
+      internalID: 1442642871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 4937
+        width: 27
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70a56c5aef12c546aa0d1703b854897
+      internalID: -1727881778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 4956
+        width: 38
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039a3f2ac5f151d48bf713e2aee68a63
+      internalID: -1655675554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 4960
+        width: 41
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ab5f2e0f8d62f428194dd948755ef6
+      internalID: -1220303841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 4823
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f019428e7ffbd8a42b8cdd23cf5b8c04
+      internalID: 1394674530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 4823
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b48c92b855982b4b9f686b7c65967ca
+      internalID: -578285356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 4823
+        width: 36
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c2ac3407cabd40a8e4b724fe0d746
+      internalID: -1110353602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 4824
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2db4ff70da35d4e8d042f78970dfc3
+      internalID: 1068550420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 4824
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66d2d15ee477a444810cd625e1b1258
+      internalID: -1471415031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 4823
+        width: 28
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9370241f44ecfcf48a456a8e371ab0c9
+      internalID: 2137024306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4725
+        width: 25
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef2a1941cacff249beb5d2471d42706
+      internalID: 266965300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4723
+        width: 27
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3f5ea3a1fdb0e40985b5d5c4c01c03
+      internalID: 1516245620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 4706
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7622ba38b16d34d92822e65e8dd1e2
+      internalID: -1381170825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 4705
+        width: 29
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3419fe4d452dc444913301c7f05441d
+      internalID: 1048801036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 4720
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdb9a1b573511748b3f83d84d19179e
+      internalID: -1807819120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 4720
+        width: 30
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029263e505c546344ba3d8d85917c65e
+      internalID: -1569363679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 4592
+        width: 30
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf4c0893dfe5264ab9243660ab9734c
+      internalID: 1003170789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 4592
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f01861830f75574c881124b1c4b2835
+      internalID: 81393123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 4608
+        width: 28
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e929c95a034902440b628d49707ac038
+      internalID: 140046001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 4608
+        width: 28
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edcbc67130784b4e82428400f101aa7
+      internalID: -1726550326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 4608
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ad5042f5bb8254bba43aaa45e3a086
+      internalID: 456786243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 4608
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023197f7f89d1e641ade4547960abde4
+      internalID: -1291841997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 4608
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c67ab18b7fa7784884a1460d163e342
+      internalID: 1755290962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 4608
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0927f6a3acffd4b92f56681a51926a
+      internalID: 745820843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 4608
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccaaaabf08f3734c967de237fe48f06
+      internalID: -1028329677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4512
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f75b4c173da88459c867fa36b4c7ec
+      internalID: -1381469592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 4512
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a3f319e79633142a9603de5abcc869
+      internalID: -1865454905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 4512
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406f6e5d64ac0cc40be7b411909b7cdd
+      internalID: -1378808773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 4496
+        width: 37
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115e3b3e8856277488c22b382b83ec05
+      internalID: -1227004873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4496
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed52595414772a4297ee4a22b88f26c
+      internalID: -1023602088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 4480
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a796ffbc33f67c468a299f2167c7aa1
+      internalID: 2022260094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 4480
+        width: 32
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfaf7b35bae92c48a61c2f514fd8caf
+      internalID: 1056094454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 4368
+        width: 34
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef075e998584aa4cb6bacbe91c53cdc
+      internalID: 894336539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 4368
+        width: 34
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104b71e88127d4544bd3e53af4d4ed11
+      internalID: 1537863598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 4368
+        width: 34
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fa4a8eb3f162441b862d9c2cd65404
+      internalID: -1055599386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4368
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfa9bd619ee3a54bbb2ee61446fc5bf
+      internalID: 148760085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 4368
+        width: 49
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f799051599e57f4297d0edbe5599b2a
+      internalID: 1112195731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 4368
+        width: 49
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce7c4080357add48b0b71e48637c35c
+      internalID: 1986752506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4272
+        width: 49
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfd1079742a9bf4e8dac42d4a497add
+      internalID: -1437473804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 4272
+        width: 49
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79742827efd21c44bee069f7589e3e7
+      internalID: -1562099801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 4272
+        width: 47
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede6fd52fd6ce084399c2aa4cb87f2c2
+      internalID: -1072353438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4272
+        width: 47
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7439f3e2c33e87647bca451f8174e135
+      internalID: -1771836092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 4272
+        width: 47
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db67fc7a0e381b42a9551882daba6eb
+      internalID: -689817574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 4272
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984d708300c3afb47bd42ac61f6bf82e
+      internalID: 338301439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 4176
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2b6ac25bf728f4a88c6fc349cf6339
+      internalID: 29264301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 4160
+        width: 33
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3860fa52f57304f8de06c4624bcbc8
+      internalID: -954506162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 4160
+        width: 33
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557782b3f3999824dba05269aa03170a
+      internalID: 743872389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 4160
+        width: 39
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a541ede87a43abc45a92b0695466889f
+      internalID: 1026071489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 4160
+        width: 39
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1684f21beba1aea408122f6642690942
+      internalID: -2084070417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 4032
+        width: 39
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785026e1de911894dafb8157894427a7
+      internalID: -1221835409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 4048
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a8f176be6ace748810db74d3944475
+      internalID: 911045413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 4048
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf3d41e60dbeb8469499c5d33740569
+      internalID: -1917931310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 4048
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9accb5ea3edea034394d152498f5d26a
+      internalID: 693087232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 4048
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4e2801f2195c94b9934709e5981683
+      internalID: 2028914391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 4032
+        width: 39
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe077b312173a94cb9de1df2622ba26
+      internalID: 1445703734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 3920
+        width: 30
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eac4dc04dd1e9458a9ce2f5f036c3e
+      internalID: 1607982667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 3920
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2f6262a69388e4597851a93e53f7e1
+      internalID: -2114052243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3936
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89af8dea231bd34c916af2fb84f3364
+      internalID: 1024846129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3936
+        width: 33
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2159e8598555b014085f5cad50c9f0d8
+      internalID: 243674631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 3936
+        width: 33
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce35e4c2800635d49882b59cfafaa8ce
+      internalID: -1123757530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 3936
+        width: 33
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f578edc2869dc54fafd28f944c46140
+      internalID: 2086039461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 3936
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b656e779b97e2409520bf9ba876ff2
+      internalID: 53247032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 3936
+        width: 49
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9b0302e038fe7438a5a5e76133b27c
+      internalID: -418607215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 3936
+        width: 49
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75c471e747eb214a9653a081df5b46a
+      internalID: -2025716021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3840
+        width: 49
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dbbb1debbb9bc4eb4ffbb5add54438
+      internalID: -1012409384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3840
+        width: 43
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edfebbc9e5098c42b2894c93076dbf0
+      internalID: -600324884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 3840
+        width: 43
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae9fcb9d020b81428a129a0dc444b95
+      internalID: -117557995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 3840
+        width: 43
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd9d38820080f24fa413ee85a46140a
+      internalID: 1765851681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 3840
+        width: 43
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3523d6521313604d87a440fc5d7cd46
+      internalID: 1543625811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 3840
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee487edeea4286478454016b9541e09
+      internalID: -1332709230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3840
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9efb21d6c833934abe76368dbc41200
+      internalID: 1430622152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 3824
+        width: 31
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d3fd4de27d3fc41b3b84fa3e71c048
+      internalID: -1048518451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 3824
+        width: 31
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8418474c6a4751944aaa324be4a429ac
+      internalID: -1285174108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 3728
+        width: 38
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b2de8a5d110f24aa3ee61eac76c703
+      internalID: 818181760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3728
+        width: 38
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78f6a19a256250418b28352f1274819
+      internalID: 2100526635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3728
+        width: 38
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83164aac12cd4554a92c737cacfc1bed
+      internalID: 626646265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 3728
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b472485e32ddf41bdd585b19523e24
+      internalID: -1063812185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3728
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b2a7145274b014e8e381f43712ad7e
+      internalID: 207637535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 3728
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29414bb92c9a8c499436691f7d3ee2b
+      internalID: 1458910612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3632
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d114301ced53a846ae02b2aa19f3d17
+      internalID: 403655974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3632
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f00c9bae803714fb5ccac57de0d111
+      internalID: -1272341420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3632
+        width: 33
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b105c19993298e1489e3de87c9d24c40
+      internalID: 830714146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 3630
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd749cc326c74b142b705bf48a9c3a31
+      internalID: -169030303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 3630
+        width: 34
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6702bfea5694c24498c200b903876b8
+      internalID: 391338228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 3614
+        width: 31
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dce18a1f19d0654abadd30cd480f921
+      internalID: 261462673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 3486
+        width: 31
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbf99ef2cc1a124389088e7fedfae2e
+      internalID: 421322435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3502
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad14eceafcd69614fb2af576047edb15
+      internalID: 510149646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 3502
+        width: 49
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488accc5aabc73c45b4e3b2ef292a0ac
+      internalID: 1837013304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 3502
+        width: 49
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c19cee71df3fd34da8f3f876e55ae0c
+      internalID: 1157720063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 3502
+        width: 49
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7ff97559bf45d439a62b2f91666d66
+      internalID: -1915265706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 3502
+        width: 46
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a4c62e9dee4d14c805fcaf9f3f1e03
+      internalID: 1059188214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 3374
+        width: 46
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4127e01d6f2e7da4795b33bc1efe2534
+      internalID: 747536984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 3374
+        width: 46
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f40ea54a8501740a6fdb40f4caa53a
+      internalID: 963970697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 3374
+        width: 45
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a77c112228f534418500cf6d3fb9cd6
+      internalID: -2094488705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 3374
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18695c2a4d610f4eb525a23de74de04
+      internalID: -571995869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 3360
+        width: 31
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a3ab3e6e951174dafcd19d30f1bfa9
+      internalID: 1206280193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 3360
+        width: 31
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad447e04eb151c2468305512229cdefe
+      internalID: 1377558224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3232
+        width: 39
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a7b8920976eae4e9e5c250e78ed8d8
+      internalID: -601619680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3232
+        width: 39
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b92f649f6ac65e4eaeab3a182148d39
+      internalID: 933478880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 3232
+        width: 39
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503cdd3a77e6c0c4db1300e0466f82b6
+      internalID: 249269315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 3248
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b322fa8793b72e440bf93b9c2fa490d6
+      internalID: 964727764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 3248
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a19ca31d4f18e342b6bb78376a9c3a9
+      internalID: 1210183404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3120
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5f2a490017d9946b49b6c3e477e7f2
+      internalID: 1291700352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3120
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd34bbcdd2a9d8048b782c16ad3253ff
+      internalID: -612680746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 3104
+        width: 38
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb33ad226ce14924f9b637f367a19185
+      internalID: 1440629583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 3103
+        width: 32
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4a20a81e0293f469a1d58086b1518f
+      internalID: 1648837920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 3136
+        width: 35
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea969057905a13e46aad73b9fbdc5b5f
+      internalID: 990922446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 3136
+        width: 35
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965a75ebbaadcda45ad5c67801c5d6e9
+      internalID: -727686281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_151
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 3136
+        width: 48
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa09ed9b4d9aa6e40b1928abee971774
+      internalID: -1888198831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_152
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3008
+        width: 48
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d968282fc484944faa453a58bb46436
+      internalID: 1075457944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_153
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 3006
+        width: 55
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b857e0fb2276814dadc89a26488f7f5
+      internalID: -1823330891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_154
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 3006
+        width: 55
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67238bef7be25e649a8833cb3688e49c
+      internalID: -2101003121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_155
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 3006
+        width: 56
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141dc69c522c59141be8a5c0503ab808
+      internalID: -494806880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_156
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 2992
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591495e254860f94b84321fcbcc5d6b2
+      internalID: -1102295096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_157
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2992
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb018b775b1af64a81ebcdd71649031
+      internalID: 199977741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_158
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2992
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787b7e7ab3a349c468064682ed4d0c0a
+      internalID: -50246416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_159
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2992
+        width: 20
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d48511741fbc1d4db98f202fbfd51f6
+      internalID: -691262902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_160
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2896
+        width: 20
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aceb0557b76812346ab35f083cc79485
+      internalID: -1483661148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_161
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2896
+        width: 20
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fd53ef43e32704c9bdf8a5804610f1
+      internalID: -778760934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_162
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2896
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b20d417db7459146a3ded604db5abd2
+      internalID: -393255981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_163
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2896
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060b53c16c8ca2843b7b59cbd9192b25
+      internalID: 1092332708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_164
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 2880
+        width: 26
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f0e6dad6683234f927f52e96baa2e1
+      internalID: 933175463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_165
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2880
+        width: 25
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e652b50bcef585a438bef24cd5ec2792
+      internalID: -244565472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_166
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2752
+        width: 28
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe36593036dcc24da5ccb4f54046796
+      internalID: -1142690669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_167
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2752
+        width: 29
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0639c8c8a4209b04fa3b353fdef8a7fd
+      internalID: -1611884348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_168
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2752
+        width: 30
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64666ff366fbd38489aa2dd710f45acf
+      internalID: 116144401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_169
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 2752
+        width: 29
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df55437901119c848ab2e21a03b2fe4b
+      internalID: -455387575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_170
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2608
+        width: 24
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5894d49436429e5468b301f5aa13218d
+      internalID: 2110902438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_171
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2608
+        width: 23
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba507030534312b49a1cd9edac308fad
+      internalID: 1939835893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_172
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2624
+        width: 25
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d4a712667c5b543abca4c368270ad2
+      internalID: -511846540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_173
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2624
+        width: 26
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb31b2d97da9874981bbc921e08f5cc
+      internalID: 55536803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_174
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2462
+        width: 31
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414d9f0e7cce80f4392671ac4d43fba9
+      internalID: -313801296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_175
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2462
+        width: 32
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f030da7154dfe8a42be4a7186f6786dd
+      internalID: -1155245510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_176
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2461
+        width: 39
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1340dfece3b993b449dbccfeacfbb5d1
+      internalID: -550906851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_177
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 2461
+        width: 39
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b93ca67ab4add47a4aac4d34f8723f
+      internalID: -1189965105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_178
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 2464
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa12f220435cc4441960a133c7cee02c
+      internalID: -687674802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_179
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2336
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78118da91372b344ca5e24d0f84022a4
+      internalID: 1730646009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_180
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2352
+        width: 37
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c304bd39199c494aa0161d7a4ed95ae
+      internalID: -1447465459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_181
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2352
+        width: 36
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3409230db033b64983a8f4c47d7fe25
+      internalID: -1217771699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_182
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 2352
+        width: 36
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226e0bda676ba0444a8b73d3ef09cdeb
+      internalID: -983381914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_183
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 2352
+        width: 37
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e36d4ab5b5116e4f9652ed47b9a9020
+      internalID: -1129201161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_184
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2352
+        width: 37
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa435d4309082145b6da314faa79261
+      internalID: -771298604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_185
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2224
+        width: 33
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b820293813f8749a4969a466120104
+      internalID: 87480699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_186
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2224
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3381eed1bd1fcec4cbd1b9d9fa748915
+      internalID: -1693609521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_187
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2222
+        width: 50
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912140d862cab984daf2bc860a7ca6ab
+      internalID: 1684908290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_188
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2223
+        width: 49
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb238c82bf4b7ed478d6a86813dbe0dc
+      internalID: -1258208090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_189
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2224
+        width: 48
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d27b46b13228e469be8b66de98ee1f
+      internalID: 979465965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_190
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 2223
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f86b9bd91b0414ea0b53d26ac818f9
+      internalID: 176809260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_191
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2127
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554ec0c958440244e94b1e17aa02d8e0
+      internalID: 658824120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_192
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2126
+        width: 50
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524a07779bd47df4a913f855491ff611
+      internalID: 668646254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_193
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2128
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be93d9956ee9bd14e96115e9aff7eb6b
+      internalID: -1976744299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_194
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2128
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fb0901608660b4abf772d0b0a62cae
+      internalID: 1175523013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_195
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2129
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9648e2849f96b2540984ff5ce5032dd7
+      internalID: 288689634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_196
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2129
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235915a95ddbb054c96750cbc7ab13e9
+      internalID: 107775871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_197
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2032
+        width: 36
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09bb1d560c971c4b810dba1c3b7f1f7
+      internalID: -563017085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_198
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2032
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2495d71bf4681438c5ad119b594b8c
+      internalID: 543561253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_199
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2032
+        width: 36
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9724770575746a842ba6b26b79cda13c
+      internalID: 1422234383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_200
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2032
+        width: 44
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d39ca74589ae440ab06983a647b256
+      internalID: 411907809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_201
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2032
+        width: 43
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57eb13320cad19746a57615bfc5617ec
+      internalID: 122736720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_202
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 2032
+        width: 43
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d730480c05bb9ef4389cafa9b0d0ab5c
+      internalID: -1479386507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_203
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1920
+        width: 43
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cba2a5cdd06afc4f8dc363f94d69ecf
+      internalID: 2060912311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_204
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1936
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f42cd5b2dc51d446b13aa27432c8527
+      internalID: -123540554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_205
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1936
+        width: 32
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cd61473c8325a4798c3d6d15c17bf5
+      internalID: 2025224094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_206
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1936
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b7ce4c43482654185063ac97cb1fe8
+      internalID: 1122629792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_207
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1936
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bac3af3fc8ba34a93e614b24a26c55
+      internalID: 1416553457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_208
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1936
+        width: 27
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6ed285328ccc94f8e84f06bb318427
+      internalID: 2114613453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_209
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1808
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb305e647e2aba747a69a2ea9689a590
+      internalID: 1774565057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_210
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1793
+        width: 27
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9925234f9e5ca44d97b602b2961ad1d
+      internalID: -815884885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_211
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1793
+        width: 28
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56966ab8cc8d62f4ea0f713f11e32e73
+      internalID: -1478113558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_212
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1793
+        width: 27
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c1ea35e85531048a07123ca3b9059c
+      internalID: 273341935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_213
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1793
+        width: 25
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210acd3938ea80447a1a275b28af188f
+      internalID: -1204264888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_214
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1664
+        width: 38
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19d5eaf96503af49bf66b73f8e6e3d6
+      internalID: 1812745111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_215
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1664
+        width: 38
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4193bc578358c54f90c6e531eea1b2e
+      internalID: 8111402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_216
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1680
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7624db6bd4c6e694fa150b6f3c41c489
+      internalID: -738196514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_217
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1680
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055a4677a76d2a447b925ab34fb32b2a
+      internalID: -126703707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_218
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1704
+        width: 6
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19f23bb142b64e4c94aff512e49a127
+      internalID: -1259866573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_219
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1701
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d20d1d166f54d44b9ca85fc7d510968
+      internalID: 344179834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_220
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1664
+        width: 34
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e3632186919254db644cd84273930a
+      internalID: 193492717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_221
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1536
+        width: 34
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895fa212662d29740b71a35eefa84113
+      internalID: 1988741248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_222
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1571
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71132ad5303aa42428d883c0440d1e69
+      internalID: -231690810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_223
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1552
+        width: 30
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39a67f49bee84a43b3f950aefdf07e3
+      internalID: 1582882697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_224
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1552
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7846391e6e2b20545a6921d837652262
+      internalID: 1982900223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_225
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1552
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6d60a59ee6c6144a7a4608a22b82c3
+      internalID: 1923556794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_226
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1552
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4e3f751b2c26540a064a388715844f
+      internalID: -1147085117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_227
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1537
+        width: 29
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f602625c546b3c544af23bdc5e00ab77
+      internalID: -785921561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_228
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1409
+        width: 28
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3585d759e9ed8419d08fde40b4363e
+      internalID: -237489132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_229
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1409
+        width: 24
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70664e4e0478eb4882d1f24ed400f04
+      internalID: -99206951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_230
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1409
+        width: 26
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f4e2eb917f13e47ac9c6f76c2cad95
+      internalID: -2008548831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_231
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1410
+        width: 24
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f8880222691d443be3366b32029981
+      internalID: 1173743622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_232
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1410
+        width: 24
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f868a2a438b59aa4081555f6a7f1d43b
+      internalID: 1131486394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_233
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1294
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951bdf3ec45665744a78d87d94ed403d
+      internalID: 625803924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_234
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1295
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9f2fcde38867647ada0b3b035f18ac
+      internalID: 678961905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_235
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1295
+        width: 23
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30162b9dfdeda7940b3405ef1aeeb58a
+      internalID: 34022441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_236
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1294
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e681210ad53d5e42bc0c01ca81aac30
+      internalID: 140070839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_237
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1296
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274a1140ddacfc847ba3db1f1b31aed7
+      internalID: -1469980195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_238
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1296
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6695351b3251afa4a817080c1044c4db
+      internalID: -181401658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_239
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1200
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926e40827fde8994a86012d7a93d5fb6
+      internalID: 1627085098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_240
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1200
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac20a6a8f2f5a4a48986012e68856478
+      internalID: 1256190299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_241
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1200
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdcdcd35c52c2140ae7211614949a53
+      internalID: 1588605691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_242
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1200
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c4bdfdb30162d4e9589d0a4d0ec1ea
+      internalID: 1748307121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_243
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1200
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0967e70b97199df4dad632b948a04a9d
+      internalID: 206069340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_244
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1201
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ce6eb338bf4db46a845a02f89128af
+      internalID: -1021948261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_245
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1103
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d659242fe9343ca4d8eb5cdca301e4b5
+      internalID: -1337627052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_246
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1104
+        width: 27
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5b53e884dd484428ab7f740c7548b0
+      internalID: -1392066433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_247
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1104
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e9694bb4ccb334985f5522cf9c0b94
+      internalID: -788196145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_248
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1104
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce5d72f8f7b97f46a8815adc9cf9205
+      internalID: -558070473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_249
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1104
+        width: 27
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9c4b5b41ca3a9418cdc71a851efbeb
+      internalID: 1898027984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_250
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1120
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4421fb87e9248b843903a52a1b1ef696
+      internalID: -1415292020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_251
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1120
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932f06238aa0c494bb69b2b261a34290
+      internalID: 211815484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_252
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1024
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4fc8f83f6669c44ba089ac5e710bbb
+      internalID: 46508409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_253
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1024
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12c0e60ece4d3449a33cf056b077163
+      internalID: -1303902405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_254
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1024
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c093506dbac6a74a8c3410a55341c90
+      internalID: 1804135782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_255
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1024
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68f8f24d99abcb409f3d7dcf85fa137
+      internalID: -1933847928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_256
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1008
+        width: 33
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a3ddac944080f448188ee8ea690763
+      internalID: -968669372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_257
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1008
+        width: 33
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610d04408dfc6d3448b687e9283d4d5c
+      internalID: -1807269248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_258
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1008
+        width: 34
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c010857ba22c6e41a17c2bcf49c0835
+      internalID: -1415094087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_259
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1008
+        width: 36
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64db4c3b984f244a9a18c1a05c9ad42
+      internalID: -895948490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_260
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 912
+        width: 38
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9d56d70af075b479366a8e54c3900e
+      internalID: 783754637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_261
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 928
+        width: 48
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb92433daaa54f41a71e8d52b4a56de
+      internalID: 649421972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_262
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 928
+        width: 50
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c30e0ee5c79fbf42b3dfc2e9f4f3ca5
+      internalID: 1322483563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_263
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 928
+        width: 51
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d3c1ead92f9ac449cc9190f897da0d
+      internalID: 1326244182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_264
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 928
+        width: 51
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6131860139155b42a197c04ec251cd1
+      internalID: 1250770266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_265
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 928
+        width: 52
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6f4dd7d355a2746960649f6f3049dc
+      internalID: 1484632040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_266
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 928
+        width: 53
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c710e84f20386b14584bb7f1e6ad3dc0
+      internalID: -1953391047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_267
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 928
+        width: 52
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9734d1335c72f49aa27de171fe858d
+      internalID: -93582201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_268
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 928
+        width: 45
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b43c04315b1b334e8d1131a389d9913
+      internalID: 1910947209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_269
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 832
+        width: 40
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c153edb09cb1d342ba1218eb78734d0
+      internalID: 1723850316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_270
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 832
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164f9c7e5a57b944f8656d63579d9cd5
+      internalID: -1306674034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_271
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 832
+        width: 26
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8239936e102a242a21ec19a1d90197
+      internalID: 823437399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_272
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 816
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b86afd2840cadd4a829b29c50e0736a
+      internalID: -1469904005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_273
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 816
+        width: 21
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f8339641fe0e64182b89bafc694082
+      internalID: 401845476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_274
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 816
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1514c726a29cd04c84381a4e6d5c9ce
+      internalID: -1255348398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_275
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 816
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ff00f9d52eee14883d64248aeae30a
+      internalID: -267281972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_276
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 720
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa095159e5713ba47bd9ec0638cadc2e
+      internalID: -865531179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_277
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 720
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5179f105bb8404aa877b858025de5b
+      internalID: -997377176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_278
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 720
+        width: 31
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9402fe704425448ab160295887a5c6
+      internalID: 573662103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_279
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 720
+        width: 29
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e2e9cada4adc84eb7e99ebbdfa9cbf
+      internalID: 1789106865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_280
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 720
+        width: 28
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6078179ab67fd349850483d1e4eab3c
+      internalID: 1592684441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_281
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 720
+        width: 27
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67829f9b366b84545877a38e237d709d
+      internalID: 219420158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_282
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 624
+        width: 27
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4e8e77bdbf1df4bae9685254edddfe
+      internalID: 1165043609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_283
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 624
+        width: 27
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa3a14b7da2d1045bad303d3958fb26
+      internalID: -85630490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_284
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 624
+        width: 30
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7929716a00ebe4284e250744a7affc
+      internalID: -1491259967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_285
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 624
+        width: 32
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ada623f12f538d499b7a6bda42c41aa
+      internalID: -144416059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_286
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 624
+        width: 32
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279285ab679d22344af921cce27d5ebb
+      internalID: 1034901798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_287
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 624
+        width: 32
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b6df27d99d4be41817c0ae5d701fa6
+      internalID: 898154715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_288
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 528
+        width: 32
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c33213e215d4a740b6dddb194f4241d
+      internalID: -270886705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_289
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 528
+        width: 32
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13342c50190b98549be6e726cddd9f3c
+      internalID: 226281821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_290
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 528
+        width: 32
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8400df54d1c923148bec2894a33b07e4
+      internalID: 2003143119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_291
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 528
+        width: 31
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef168ea744d715b4482280079e4241e6
+      internalID: -641234353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_292
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 528
+        width: 29
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc69e0a581d93046aaffaef107d1a86
+      internalID: 1696735560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_293
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 528
+        width: 28
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cb6e556bce40e4d95c973eed424eff
+      internalID: -1874763329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_294
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 432
+        width: 27
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe244e8547da7f418411112a4f370a3
+      internalID: -17874467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_295
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 432
+        width: 28
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60934e59f3bbebd4585fedba4c9709f4
+      internalID: -1925417060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_296
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 432
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294f8dfb1cb07bc448ad86c34e38899d
+      internalID: -1818160437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_297
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 432
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ce556a742b3db43a83586a3df3d277
+      internalID: -1945170618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_298
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 434
+        width: 36
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044bf3d231d2df6459c49e81b277b0b4
+      internalID: 1998044561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_299
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 432
+        width: 36
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d59e63cba3db24a8dfffdf4f102e39
+      internalID: -1749091585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_300
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 336
+        width: 36
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7402e3835bcc4f40a12757230d57339
+      internalID: -138135377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_301
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 336
+        width: 36
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe62d6c9691db946979456d9bb9990e
+      internalID: 1950366417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_302
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 337
+        width: 34
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad951adefe140d449a7cd0c40a6d7b09
+      internalID: -873318512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_303
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 340
+        width: 41
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d6196c3699e0b468cfbd795ad6e86e
+      internalID: 1598764910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_304
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 336
+        width: 42
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffac5b56db3fe24fb6445527325e163
+      internalID: -1102312409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_305
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 337
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2434481779363b4469f75e01b04779f4
+      internalID: 1156822264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_306
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 241
+        width: 27
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d9391a30fc14c4cb529dee43fdc40c
+      internalID: -1997258643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_307
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 241
+        width: 27
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f701e7e45288b4c9f19350bb6ecd66
+      internalID: -1279947417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_308
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 241
+        width: 27
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aacba0a5c4e33642ac452df7cd9456c
+      internalID: -279322843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_309
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd89bf14a2cabf5469446059a47c0076
+      internalID: 2005217245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_310
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 240
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dcb73eb61a4d54ca533a9e1a200906
+      internalID: 600388425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_311
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 240
+        width: 33
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2201dbc834f269644bc634cbe7c5efc8
+      internalID: 2043561379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_312
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81b9cee0c01b104b9467e0cd5bc8227
+      internalID: 1938931094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_313
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f073f28662cc9479e0e87a700385f3
+      internalID: 1313985949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_314
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09703c8406808874c8408552154fff50
+      internalID: 1820091037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_315
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 144
+        width: 33
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0528637aefd9242aaf48bd17c79045
+      internalID: -2049901052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_316
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 144
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a56bb877e95e36469a99952b9a36642
+      internalID: 1696965673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_317
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 144
+        width: 30
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881b9ac2ebcbd0a48bd56993a4f7adde
+      internalID: 2114227940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_318
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 48
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8eb8e60bdc559479a5688eaeca26b4
+      internalID: 391745409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shanoa-spritesheet_319
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 48
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26946fc867c7bfe469b5775666ae6a85
+      internalID: -159667612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      shanoa-spritesheet_196: 107775871
+      shanoa-spritesheet_44: -1727881778
+      shanoa-spritesheet_286: 1034901798
+      shanoa-spritesheet_92: -1221835409
+      shanoa-spritesheet_103: 2086039461
+      shanoa-spritesheet_213: -1204264888
+      shanoa-spritesheet_309: 2005217245
+      shanoa-spritesheet_154: -2101003121
+      shanoa-spritesheet_166: -1142690669
+      shanoa-spritesheet_301: 1950366417
+      shanoa-spritesheet_32: -756751280
+      shanoa-spritesheet_261: 649421972
+      shanoa-spritesheet_84: -1771836092
+      shanoa-spritesheet_2: -33087520
+      shanoa-spritesheet_210: -815884885
+      shanoa-spritesheet_184: -771298604
+      shanoa-spritesheet_191: 658824120
+      shanoa-spritesheet_31: 866101566
+      shanoa-spritesheet_252: 46508409
+      shanoa-spritesheet_93: 911045413
+      shanoa-spritesheet_229: -99206951
+      shanoa-spritesheet_113: 1430622152
+      shanoa-spritesheet_249: 1898027984
+      shanoa-spritesheet_285: -144416059
+      shanoa-spritesheet_182: -983381914
+      shanoa-spritesheet_288: -270886705
+      shanoa-spritesheet_55: -1381170825
+      shanoa-spritesheet_275: -267281972
+      shanoa-spritesheet_253: -1303902405
+      shanoa-spritesheet_115: -1285174108
+      shanoa-spritesheet_97: 1445703734
+      shanoa-spritesheet_112: -1332709230
+      shanoa-spritesheet_124: 830714146
+      shanoa-spritesheet_172: -511846540
+      shanoa-spritesheet_150: -727686281
+      shanoa-spritesheet_17: 1375067071
+      shanoa-spritesheet_294: -17874467
+      shanoa-spritesheet_170: 2110902438
+      shanoa-spritesheet_313: 1313985949
+      shanoa-spritesheet_98: 1607982667
+      shanoa-spritesheet_187: 1684908290
+      shanoa-spritesheet_304: -1102312409
+      shanoa-spritesheet_36: -2025216512
+      shanoa-spritesheet_123: -1272341420
+      shanoa-spritesheet_131: 1157720063
+      shanoa-spritesheet_287: 898154715
+      shanoa-spritesheet_201: 122736720
+      shanoa-spritesheet_125: -169030303
+      shanoa-spritesheet_291: -641234353
+      shanoa-spritesheet_135: 963970697
+      shanoa-spritesheet_224: 1982900223
+      shanoa-spritesheet_118: 626646265
+      shanoa-spritesheet_72: -1023602088
+      shanoa-spritesheet_143: 964727764
+      shanoa-spritesheet_114: -1048518451
+      shanoa-spritesheet_180: -1447465459
+      shanoa-spritesheet_133: 1059188214
+      shanoa-spritesheet_16: 13181921
+      shanoa-spritesheet_153: -1823330891
+      shanoa-spritesheet_110: 1765851681
+      shanoa-spritesheet_248: -558070473
+      shanoa-spritesheet_265: 1484632040
+      shanoa-spritesheet_3: -244428313
+      shanoa-spritesheet_29: 137490759
+      shanoa-spritesheet_178: -687674802
+      shanoa-spritesheet_207: 1416553457
+      shanoa-spritesheet_30: -1407417170
+      shanoa-spritesheet_260: 783754637
+      shanoa-spritesheet_227: -785921561
+      shanoa-spritesheet_169: -455387575
+      shanoa-spritesheet_86: 338301439
+      shanoa-spritesheet_310: 600388425
+      shanoa-spritesheet_71: -1227004873
+      shanoa-spritesheet_237: -1469980195
+      shanoa-spritesheet_274: -1255348398
+      shanoa-spritesheet_267: -93582201
+      shanoa-spritesheet_56: 1048801036
+      shanoa-spritesheet_141: 933478880
+      shanoa-spritesheet_242: 1748307121
+      shanoa-spritesheet_75: 894336539
+      shanoa-spritesheet_87: 29264301
+      shanoa-spritesheet_165: -244565472
+      shanoa-spritesheet_205: 2025224094
+      shanoa-spritesheet_204: -123540554
+      shanoa-spritesheet_218: -1259866573
+      shanoa-spritesheet_259: -895948490
+      shanoa-spritesheet_279: 1789106865
+      shanoa-spritesheet_167: -1611884348
+      shanoa-spritesheet_176: -550906851
+      shanoa-spritesheet_308: -279322843
+      shanoa-spritesheet_197: -563017085
+      shanoa-spritesheet_99: -2114052243
+      shanoa-spritesheet_164: 933175463
+      shanoa-spritesheet_146: -612680746
+      shanoa-spritesheet_130: 1837013304
+      shanoa-spritesheet_57: -1807819120
+      shanoa-spritesheet_0: -1021961226
+      shanoa-spritesheet_186: -1693609521
+      shanoa-spritesheet_268: 1910947209
+      shanoa-spritesheet_211: -1478113558
+      shanoa-spritesheet_214: 1812745111
+      shanoa-spritesheet_276: -865531179
+      shanoa-spritesheet_11: -683149322
+      shanoa-spritesheet_77: -1055599386
+      shanoa-spritesheet_127: 261462673
+      shanoa-spritesheet_156: -1102295096
+      shanoa-spritesheet_295: -1925417060
+      shanoa-spritesheet_120: 207637535
+      shanoa-spritesheet_247: -788196145
+      shanoa-spritesheet_73: 2022260094
+      shanoa-spritesheet_144: 1210183404
+      shanoa-spritesheet_282: 1165043609
+      shanoa-spritesheet_140: -601619680
+      shanoa-spritesheet_66: 745820843
+      shanoa-spritesheet_145: 1291700352
+      shanoa-spritesheet_250: -1415292020
+      shanoa-spritesheet_48: -578285356
+      shanoa-spritesheet_219: 344179834
+      shanoa-spritesheet_35: 108282893
+      shanoa-spritesheet_306: -1997258643
+      shanoa-spritesheet_245: -1337627052
+      shanoa-spritesheet_85: -689817574
+      shanoa-spritesheet_40: -102812499
+      shanoa-spritesheet_121: 1458910612
+      shanoa-spritesheet_226: -1147085117
+      shanoa-spritesheet_239: 1627085098
+      shanoa-spritesheet_264: 1250770266
+      shanoa-spritesheet_312: 1938931094
+      shanoa-spritesheet_277: -997377176
+      shanoa-spritesheet_22: -837814396
+      shanoa-spritesheet_109: -117557995
+      shanoa-spritesheet_47: 1394674530
+      shanoa-spritesheet_280: 1592684441
+      shanoa-spritesheet_223: 1582882697
+      shanoa-spritesheet_10: -20936353
+      shanoa-spritesheet_243: 206069340
+      shanoa-spritesheet_105: -418607215
+      shanoa-spritesheet_90: 1026071489
+      shanoa-spritesheet_104: 53247032
+      shanoa-spritesheet_278: 573662103
+      shanoa-spritesheet_21: 2014407655
+      shanoa-spritesheet_319: -159667612
+      shanoa-spritesheet_246: -1392066433
+      shanoa-spritesheet_305: 1156822264
+      shanoa-spritesheet_96: 2028914391
+      shanoa-spritesheet_76: 1537863598
+      shanoa-spritesheet_152: 1075457944
+      shanoa-spritesheet_158: -50246416
+      shanoa-spritesheet_238: -181401658
+      shanoa-spritesheet_129: 510149646
+      shanoa-spritesheet_175: -1155245510
+      shanoa-spritesheet_316: 1696965673
+      shanoa-spritesheet_254: 1804135782
+      shanoa-spritesheet_185: 87480699
+      shanoa-spritesheet_163: 1092332708
+      shanoa-spritesheet_234: 678961905
+      shanoa-spritesheet_263: 1326244182
+      shanoa-spritesheet_20: 1596461655
+      shanoa-spritesheet_161: -778760934
+      shanoa-spritesheet_270: -1306674034
+      shanoa-spritesheet_6: -2067246731
+      shanoa-spritesheet_13: -1102583760
+      shanoa-spritesheet_28: 1831959627
+      shanoa-spritesheet_132: -1915265706
+      shanoa-spritesheet_51: -1471415031
+      shanoa-spritesheet_15: 53666580
+      shanoa-spritesheet_95: 693087232
+      shanoa-spritesheet_88: -954506162
+      shanoa-spritesheet_179: 1730646009
+      shanoa-spritesheet_122: 403655974
+      shanoa-spritesheet_215: 8111402
+      shanoa-spritesheet_256: -968669372
+      shanoa-spritesheet_251: 211815484
+      shanoa-spritesheet_292: 1696735560
+      shanoa-spritesheet_126: 391338228
+      shanoa-spritesheet_302: -873318512
+      shanoa-spritesheet_37: 1141494523
+      shanoa-spritesheet_49: -1110353602
+      shanoa-spritesheet_27: 1245586852
+      shanoa-spritesheet_193: -1976744299
+      shanoa-spritesheet_311: 2043561379
+      shanoa-spritesheet_100: 1024846129
+      shanoa-spritesheet_195: 288689634
+      shanoa-spritesheet_137: -571995869
+      shanoa-spritesheet_136: -2094488705
+      shanoa-spritesheet_117: 2100526635
+      shanoa-spritesheet_202: -1479386507
+      shanoa-spritesheet_232: 1131486394
+      shanoa-spritesheet_314: 1820091037
+      shanoa-spritesheet_199: 1422234383
+      shanoa-spritesheet_78: 148760085
+      shanoa-spritesheet_79: 1112195731
+      shanoa-spritesheet_255: -1933847928
+      shanoa-spritesheet_160: -1483661148
+      shanoa-spritesheet_67: -1028329677
+      shanoa-spritesheet_222: -231690810
+      shanoa-spritesheet_217: -126703707
+      shanoa-spritesheet_200: 411907809
+      shanoa-spritesheet_8: 1004937912
+      shanoa-spritesheet_102: -1123757530
+      shanoa-spritesheet_107: -1012409384
+      shanoa-spritesheet_111: 1543625811
+      shanoa-spritesheet_168: 116144401
+      shanoa-spritesheet_119: -1063812185
+      shanoa-spritesheet_296: -1818160437
+      shanoa-spritesheet_273: 401845476
+      shanoa-spritesheet_9: -1459563563
+      shanoa-spritesheet_41: -937808743
+      shanoa-spritesheet_189: 979465965
+      shanoa-spritesheet_289: 226281821
+      shanoa-spritesheet_33: 288512943
+      shanoa-spritesheet_45: -1655675554
+      shanoa-spritesheet_149: 990922446
+      shanoa-spritesheet_1: -491434987
+      shanoa-spritesheet_235: 34022441
+      shanoa-spritesheet_5: 1658524513
+      shanoa-spritesheet_225: 1923556794
+      shanoa-spritesheet_65: 1755290962
+      shanoa-spritesheet_91: -2084070417
+      shanoa-spritesheet_221: 1988741248
+      shanoa-spritesheet_269: 1723850316
+      shanoa-spritesheet_272: -1469904005
+      shanoa-spritesheet_50: 1068550420
+      shanoa-spritesheet_281: 219420158
+      shanoa-spritesheet_230: -2008548831
+      shanoa-spritesheet_307: -1279947417
+      shanoa-spritesheet_89: 743872389
+      shanoa-spritesheet_262: 1322483563
+      shanoa-spritesheet_63: 456786243
+      shanoa-spritesheet_171: 1939835893
+      shanoa-spritesheet_228: -237489132
+      shanoa-spritesheet_318: 391745409
+      shanoa-spritesheet_300: -138135377
+      shanoa-spritesheet_46: -1220303841
+      shanoa-spritesheet_183: -1129201161
+      shanoa-spritesheet_216: -738196514
+      shanoa-spritesheet_64: -1291841997
+      shanoa-spritesheet_70: -1378808773
+      shanoa-spritesheet_258: -1415094087
+      shanoa-spritesheet_59: 1003170789
+      shanoa-spritesheet_188: -1258208090
+      shanoa-spritesheet_62: -1726550326
+      shanoa-spritesheet_38: 864630011
+      shanoa-spritesheet_192: 668646254
+      shanoa-spritesheet_69: -1865454905
+      shanoa-spritesheet_24: -2079632392
+      shanoa-spritesheet_60: 81393123
+      shanoa-spritesheet_83: -1072353438
+      shanoa-spritesheet_81: -1437473804
+      shanoa-spritesheet_244: -1021948261
+      shanoa-spritesheet_303: 1598764910
+      shanoa-spritesheet_54: 1516245620
+      shanoa-spritesheet_142: 249269315
+      shanoa-spritesheet_19: -1224633484
+      shanoa-spritesheet_283: -85630490
+      shanoa-spritesheet_34: -111422007
+      shanoa-spritesheet_134: 747536984
+      shanoa-spritesheet_206: 1122629792
+      shanoa-spritesheet_290: 2003143119
+      shanoa-spritesheet_151: -1888198831
+      shanoa-spritesheet_12: -800065595
+      shanoa-spritesheet_42: 341370005
+      shanoa-spritesheet_181: -1217771699
+      shanoa-spritesheet_80: 1986752506
+      shanoa-spritesheet_39: -158944160
+      shanoa-spritesheet_173: 55536803
+      shanoa-spritesheet_236: 140070839
+      shanoa-spritesheet_241: 1588605691
+      shanoa-spritesheet_297: -1945170618
+      shanoa-spritesheet_101: 243674631
+      shanoa-spritesheet_106: -2025716021
+      shanoa-spritesheet_58: -1569363679
+      shanoa-spritesheet_157: 199977741
+      shanoa-spritesheet_94: -1917931310
+      shanoa-spritesheet_53: 266965300
+      shanoa-spritesheet_26: 1392830520
+      shanoa-spritesheet_116: 818181760
+      shanoa-spritesheet_138: 1206280193
+      shanoa-spritesheet_194: 1175523013
+      shanoa-spritesheet_159: -691262902
+      shanoa-spritesheet_220: 193492717
+      shanoa-spritesheet_43: 1442642871
+      shanoa-spritesheet_293: -1874763329
+      shanoa-spritesheet_240: 1256190299
+      shanoa-spritesheet_315: -2049901052
+      shanoa-spritesheet_174: -313801296
+      shanoa-spritesheet_190: 176809260
+      shanoa-spritesheet_82: -1562099801
+      shanoa-spritesheet_177: -1189965105
+      shanoa-spritesheet_231: 1173743622
+      shanoa-spritesheet_212: 273341935
+      shanoa-spritesheet_139: 1377558224
+      shanoa-spritesheet_233: 625803924
+      shanoa-spritesheet_257: -1807269248
+      shanoa-spritesheet_23: -1167523640
+      shanoa-spritesheet_147: 1440629583
+      shanoa-spritesheet_18: -746252596
+      shanoa-spritesheet_266: -1953391047
+      shanoa-spritesheet_203: 2060912311
+      shanoa-spritesheet_208: 2114613453
+      shanoa-spritesheet_284: -1491259967
+      shanoa-spritesheet_148: 1648837920
+      shanoa-spritesheet_155: -494806880
+      shanoa-spritesheet_52: 2137024306
+      shanoa-spritesheet_61: 140046001
+      shanoa-spritesheet_68: -1381469592
+      shanoa-spritesheet_14: -31195412
+      shanoa-spritesheet_4: -1733940523
+      shanoa-spritesheet_298: 1998044561
+      shanoa-spritesheet_25: 1697215115
+      shanoa-spritesheet_317: 2114227940
+      shanoa-spritesheet_198: 543561253
+      shanoa-spritesheet_108: -600324884
+      shanoa-spritesheet_271: 823437399
+      shanoa-spritesheet_299: -1749091585
+      shanoa-spritesheet_74: 1056094454
+      shanoa-spritesheet_209: 1774565057
+      shanoa-spritesheet_128: 421322435
+      shanoa-spritesheet_162: -393255981
+      shanoa-spritesheet_7: 1155352218
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
