@@ -34,6 +34,7 @@ public class Move : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private CollisionCheck _collisionCheck;
     private WallClimb _wallClimb;
+    private SpriteRenderer _spriteRenderer;
 
     void Awake()
     {
@@ -41,6 +42,7 @@ public class Move : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _collisionCheck = GetComponent<CollisionCheck>();
         _wallClimb = GetComponent<WallClimb>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -63,5 +65,9 @@ public class Move : MonoBehaviour
 
         // Set velocity
         _rigidbody2D.velocity = velocity;
+
+        // Face the character in the direction of movement
+        if (direction.x != 0f)
+            _spriteRenderer.flipX = direction.x < 0f;            
     }
 }
