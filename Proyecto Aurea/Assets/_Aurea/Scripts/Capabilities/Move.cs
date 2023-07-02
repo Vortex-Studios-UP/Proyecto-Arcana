@@ -13,28 +13,48 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Move : MonoBehaviour
 {
     // Movement settings
-    [SerializeField] private InputController _inputController = null;
-    [SerializeField, Range(0f, 100f)] private float maxSpeed = 4f;
+    [Header("Ground Movement Settings")]
+    [SerializeField, Range(0f, 20f)] private float maxSpeed = 4f;
     [SerializeField, Range(0f, 100f)] private float maxAcceleration = 35f;
-    [SerializeField, Range(0f, 100f)] private float maxAirAcceleration = 20f;
+    [SerializeField, Range(0f, 100f)] private float maxDeceleration = 35f;
+    [SerializeField, Range(0f, 100f)] private float turnSpeed = 35f;
 
-    // Private variable
-    private Vector2 direction;
-    private Vector2 velocity;
+
+    [Header("Air Movement Settings")]
+    [SerializeField, Range(0f, 20f)] private float maxAirSpeed = 4f;
+    [SerializeField, Range(0f, 100f)] private float maxAirAcceleration = 20f;
+    [SerializeField, Range(0f, 100f)] private float maxAirDeceleration = 20f;
+    [SerializeField, Range(0f, 100f)] private float airTurnSpeed = 35f;
+
+    // Public variables
+    public Vector2 direction { get; private set; } // Direction of movement from input
+
+    // Private variables
+    private Vector2 velocity; // Current velocity
     private Vector2 desiredVelocity;
-    private float maxSpeedChange;
-    private float acceleration;
+    
+    private float acceleration; // How fast to reach max speed
+    private float deceleration; // How fast to reach 0 speed
+    private float speed; // Current speed
+    private float maxSpeedChange; // Maximum speed change per frame
     private bool onGround;
+    private bool pressingKey;
 
     // Onject components
     private Rigidbody2D _rigidbody2D;
     private CollisionCheck _collisionCheck;
     private WallClimb _wallClimb;
     private SpriteRenderer _spriteRenderer;
+
+    public void OnMovement(InputAction.CallbackContext context)
+    {
+        direction = context.ReadValue<Vector2>();
+    }
 
     void Awake()
     {
@@ -47,27 +67,52 @@ public class Move : MonoBehaviour
 
     private void Update()
     {
-        // Get input every frame
-        direction.x = _inputController.RetrieveMoveInput(this.gameObject);
-        desiredVelocity = new Vector2(direction.x, 0f) * Mathf.Max(maxSpeed - _collisionCheck.friction, 0f);
+        // Flip the character in the direction of movement
+        if (direction.x != 0f && !_collisionCheck.onWall)
+        {
+            //_spriteRenderer.flipX = direction.x < 0f;
+            transform.localScale = new Vector3(direction.x > 0 ? 1 : -1, 1, 1);
+            pressingKey = true;
+        }
+        else
+            pressingKey = false;
+
+        // Set the desired velocity
+        speed = onGround ? maxSpeed : maxAirSpeed;
+        desiredVelocity = new Vector2(direction.x, 0f) * Mathf.Max(speed - _collisionCheck.friction, 0f);
     }
 
     private void FixedUpdate() 
     {
-        // Perform physics calculations every fixed frame
+        // Get current state
         onGround = _collisionCheck.onGround;
         velocity = _rigidbody2D.velocity;
 
+        // Set acceleration, decelartion and turn speed according to grounded state.
+        MoveAction();
+    }
+
+    private void MoveAction()
+    {
         // Set acceleration and speed according to grounded state
         acceleration = onGround ? maxAcceleration : maxAirAcceleration;
-        maxSpeedChange = acceleration * Time.deltaTime;
+        deceleration = onGround ? maxDeceleration : maxAirDeceleration;
+        turnSpeed = onGround ? turnSpeed : airTurnSpeed;
+
+        // Calculate the maximum speed change. Use turn speed if changing direction, otherwise use acceleration.
+        if (pressingKey)
+        {
+            if (Mathf.Sign(direction.x) != Mathf.Sign(velocity.x))
+                maxSpeedChange = turnSpeed * Time.deltaTime;
+            else
+                maxSpeedChange = acceleration * Time.deltaTime;
+        }
+        // If not pressing a key, use deceleration.
+        else 
+            maxSpeedChange = deceleration * Time.deltaTime;
+
+        // Set velocity to desired velocity at the rate of max speed change.
         velocity.x = Mathf.MoveTowards(velocity.x, desiredVelocity.x, maxSpeedChange);
-
-        // Set velocity
-        _rigidbody2D.velocity = velocity;
-
-        // Face the character in the direction of movement
-        if (direction.x != 0f)
-            _spriteRenderer.flipX = direction.x < 0f;            
+        _rigidbody2D.velocity = velocity; 
     }
 }

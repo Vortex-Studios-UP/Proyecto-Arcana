@@ -4795,8 +4795,8 @@ TextureImporter:
         y: 1552
         width: 30
         height: 42
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.75, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4918,7 +4918,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 187
-        y: 1409
+        y: 1408
         width: 24
         height: 57
       alignment: 7
@@ -6917,10 +6917,10 @@ TextureImporter:
       shanoa-spritesheet_75: 894336539
       shanoa-spritesheet_87: 29264301
       shanoa-spritesheet_165: -244565472
-      shanoa-spritesheet_205: 2025224094
-      shanoa-spritesheet_204: -123540554
       shanoa-spritesheet_218: -1259866573
+      shanoa-spritesheet_204: -123540554
       shanoa-spritesheet_259: -895948490
+      shanoa-spritesheet_205: 2025224094
       shanoa-spritesheet_279: 1789106865
       shanoa-spritesheet_167: -1611884348
       shanoa-spritesheet_176: -550906851

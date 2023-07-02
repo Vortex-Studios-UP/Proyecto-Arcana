@@ -6,8 +6,8 @@
 
 * Functionality: Check if the object is grounded and retrieve the friction of the ground.
 * Approach: 
-    * Determines if the object is grounded by checking the normal of the collision. 
-    Retrieves the friction of the ground from the collider material.
+    * Determines if the object is grounded or on wall by checking the normal of the collision. 
+    * Retrieves the friction of the ground from the collider material.
 * To Use: Attach to a character object.
 * Dependencies: Collider2D
 */
@@ -20,12 +20,17 @@ using UnityEngine;
 
 public class CollisionCheck : MonoBehaviour
 {
-    public bool onGround { get; private set; }
-    public bool onWall { get; private set; }
-    public float friction { get; private set; }
-    public Vector2 contactNormal { get; private set; }
-    private PhysicsMaterial2D material { get; set; }
+    // Public variables
+    public bool onGround { get; private set; } // Is the object grounded?
+    public bool onWall { get; private set; } // Is the object on a wall?
+    public float friction { get; private set; } // Friction of the ground.
+    public Vector2 contactNormal { get; private set; } // Normal of the collision.
 
+    // Private variables
+    [SerializeField] private LayerMask groundLayer; // Layer of the ground.
+    private PhysicsMaterial2D material { get; set; } // Material of the collider.
+
+    // Update variables according collisions with the object.
     public void EvaluateCollision(Collision2D collision)
     {
         for (int i = 0; i < collision.contactCount; i++)
@@ -41,12 +46,22 @@ public class CollisionCheck : MonoBehaviour
     {
         EvaluateCollision(other);
         RetrieveFriction(other);
+
+        if (other.gameObject.layer == groundLayer)
+        {
+            
+        }
     }
 
     private void OnCollisionStay2D(Collision2D other) 
     {
         EvaluateCollision(other);
         RetrieveFriction(other);
+
+        if (other.gameObject.layer == groundLayer)
+        {
+
+        }
     }
 
     // Not grounded 
@@ -64,8 +79,6 @@ public class CollisionCheck : MonoBehaviour
         friction = 0;
 
         if (material != null)
-        {
             friction = material.friction;
-        }
     }
 }
